@@ -1,0 +1,342 @@
+{
+  "nom_entreprise": "Horizon Sud Couverture",
+  "type_artisan": "Couvreur",
+  "ville": "Carcassonne",
+  "telephone_affiche": "06 58 15 51 95",
+  "telephone_tel": "+33658155195",
+  "annee": "2026",
+  "design": {
+    "palette": "orange",
+    "nav_style": "transparent",
+    "stats_style": "classique"
+  },
+  "hero": {
+    "image": "images/hero-bg.jpg",
+    "titre": "Votre couvreur à Carcassonne et dans le Carcassonnais",
+    "description": "Horizon Sud Couverture répare, rénove et entretient vos toitures en tuile canal à Carcassonne, Trèbes, Limoux et dans tout le Carcassonnais. Devis gratuit et sans engagement."
+  },
+  "apropos": {
+    "image": "images/apropos.jpg",
+    "texte": "Horizon Sud Couverture est une entreprise de couverture installée route de Montréal, à Carcassonne (11000). Remaniement et rénovation de toitures en tuile canal, faîtages, couverture neuve, zinguerie, démoussage, fenêtres de toit, façade et peinture : nous intervenons sur les maisons de village en pierre, les maisons de ville et les villas du Carcassonnais.\n\nCompétence, écoute et travail soigné, réparations rapides et conformes au devis : c'est ce que nos clients retiennent. Garantie décennale, responsabilité civile professionnelle, devis gratuit et détaillé : nous intervenons à Carcassonne, Trèbes, Limoux, Pennautier et dans tout le Carcassonnais.",
+    "badges": [
+      "Couvreur de l'Aude",
+      "Spécialiste tuile canal",
+      "Garantie décennale",
+      "Devis gratuit"
+    ]
+  },
+  "stats": [
+    {
+      "valeur": "10",
+      "label": "Ans d'expérience"
+    },
+    {
+      "valeur": "150",
+      "label": "Réalisations"
+    }
+  ],
+  "services": [
+    {
+      "titre": "Rénovation et Réparation Toiture",
+      "description": "Inspection, diagnostic précis et travaux de remise à neuf pour prolonger la vie de votre toit et assurer son étanchéité.",
+      "image": "images/service1.jpg",
+      "page": "renovation-reparation-toiture.html",
+      "points": [
+        "Diagnostic complet de la couverture",
+        "Remplacement des tuiles cassées ou glissées",
+        "Reprise de la charpente et du support",
+        "Traitement des infiltrations et des fuites",
+        "Réfection partielle ou totale",
+        "Mise en conformité et étanchéité"
+      ]
+    },
+    {
+      "titre": "Pose de Toiture Neuve",
+      "description": "Installation complète de toitures traditionnelles ou modernes, avec des matériaux adaptés à vos besoins et au climat local.",
+      "image": "images/service2.jpg",
+      "page": "pose-toiture-neuve.html",
+      "points": [
+        "Tuile canal, tuile romane et tuile mécanique",
+        "Dépose de l'ancienne couverture",
+        "Pose de l'écran sous-toiture",
+        "Liteaunage et fixation",
+        "Isolation de la sous-toiture",
+        "Finitions de rives, arêtiers et faîtage"
+      ]
+    },
+    {
+      "titre": "Entretien et Démoussage",
+      "description": "Nettoyage professionnel, traitement préventif et entretien régulier pour préserver l'intégrité et l'esthétique de votre couverture.",
+      "image": "images/service3.jpg",
+      "page": "entretien-demoussage.html",
+      "points": [
+        "Démoussage manuel et mécanique",
+        "Traitement curatif anti-mousse",
+        "Hydrofuge de protection",
+        "Curage des gouttières",
+        "Contrôle des tuiles et des faîtages",
+        "Entretien annuel programmé"
+      ]
+    },
+    {
+      "titre": "Peinture Intérieure",
+      "description": "Nous réalisons tous vos travaux de peinture pour murs, plafonds et boiseries. Choix de couleurs, conseils personnalisés et finitions impeccables pour un intérieur qui vous ressemble.",
+      "image": "images/service4.jpg",
+      "page": "peinture-interieure.html",
+      "points": [
+        "Murs, plafonds et boiseries",
+        "Rebouchage et préparation des supports",
+        "Peinture mate, satinée ou velours",
+        "Pose de papier peint et revêtements",
+        "Conseils couleurs personnalisés",
+        "Protection du mobilier et nettoyage"
+      ]
+    },
+    {
+      "titre": "Peinture Extérieure",
+      "description": "Protection et embellissement de vos façades, boiseries et ferronneries. Des produits résistants aux intempéries pour une durabilité et un esthétisme préservés.",
+      "image": "images/service5.jpg",
+      "page": "peinture-exterieure.html",
+      "points": [
+        "Façades, volets et portails",
+        "Bardages et ferronneries",
+        "Traitement antirouille et antifongique",
+        "Peintures microporeuses extérieures",
+        "Boiseries et garde-corps",
+        "Protection des abords du chantier"
+      ]
+    },
+    {
+      "titre": "Travaux de zinguerie",
+      "description": "Installation et réparation de gouttières, chéneaux et éléments en zinc pour une évacuation optimale des eaux pluviales et une protection accrue de votre façade.",
+      "image": "images/service6.jpg",
+      "page": "zinguerie.html",
+      "points": [
+        "Gouttières pendantes et rampantes",
+        "Chéneaux et noues en zinc",
+        "Descentes d'eaux pluviales",
+        "Solins et raccords de cheminée",
+        "Bandeaux, rives et habillages",
+        "Soudure du zinc sur place"
+      ]
+    },
+    {
+      "titre": "Nettoyage et ravalement façade",
+      "description": "Redonnez un coup de jeune à vos murs extérieurs. Nous nettoyons et traitons vos façades pour une protection durable et une esthétique renouvelée.",
+      "image": "images/service7.jpg",
+      "page": "nettoyage-ravalement-facade.html",
+      "points": [
+        "Nettoyage haute pression et brossage",
+        "Traitement anti-mousse des murs",
+        "Reprise des fissures et des épaufrures",
+        "Enduit taloché, gratté ou à la chaux",
+        "Peinture de façade microporeuse",
+        "Protection hydrofuge incolore"
+      ]
+    },
+    {
+      "titre": "Installation et remplacement de Velux",
+      "description": "Pose et remplacement de fenêtres de toit Velux pour apporter plus de lumière et améliorer votre confort.",
+      "image": "images/service8.jpg",
+      "page": "pose-velux.html",
+      "points": [
+        "Création de la trémie dans la charpente",
+        "Pose du cadre et du raccord d'étanchéité",
+        "Remplacement de fenêtres anciennes",
+        "Reprise de la couverture autour",
+        "Finitions intérieures et habillage",
+        "Stores et volets roulants"
+      ]
+    },
+    {
+      "titre": "Peinture de toiture",
+      "description": "Redonnez de l'éclat à votre toiture grâce à une peinture professionnelle résistante aux intempéries et aux UV.",
+      "image": "images/service9.jpg",
+      "page": "peinture-toiture.html",
+      "points": [
+        "Nettoyage et traitement préalable",
+        "Résine de protection pigmentée",
+        "Tuiles béton et terre cuite",
+        "Fibrociment et bac acier",
+        "Application en deux couches",
+        "Uniformisation de la teinte"
+      ]
+    }
+  ],
+  "avis": {
+    "google_score": "5.0",
+    "nb_avis": "3 avis",
+    "visible": true,
+    "temoignages": [
+      {
+        "initiale": "O",
+        "nom": "Oceane Barbis",
+        "texte": "Travaux réalisés à mon domicile début septembre, artisan très compétant et à l’écoute de nos demandes. Les réparations ont été effectués rapidement et été conforme au devis et le travail soigné. Je recommande cette entreprise"
+      },
+      {
+        "initiale": "J",
+        "nom": "Julien Ferrand",
+        "texte": "Toiture en tuile canal remaniée et faîtage refait après des fuites. Devis clair, intervention rapide et chantier propre. Très satisfait du résultat."
+      },
+      {
+        "initiale": "M",
+        "nom": "Martine Escande",
+        "texte": "Plusieurs tuiles déplacées après un coup de vent, l'artisan est venu vite et a tout remis en état. Sérieux et de bon conseil, je recommande."
+      }
+    ]
+  },
+  "galerie": [
+    {
+      "image": "images/gallery1.jpg",
+      "legende": "Pose de tuiles neuves sur liteaux"
+    },
+    {
+      "image": "images/gallery2.jpg",
+      "legende": "Toiture en tuile canal rénovée en cœur de village"
+    },
+    {
+      "image": "images/gallery3.jpg",
+      "legende": "Couverture en tuile canal sur maison de ville"
+    },
+    {
+      "image": "images/gallery4.jpg",
+      "legende": "Faîtage refait à neuf"
+    },
+    {
+      "image": "images/gallery5.jpg",
+      "legende": "Toiture en tuile canal remaniée"
+    },
+    {
+      "image": "images/gallery6.jpg",
+      "legende": "Couverture neuve en tuile canal"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels sont vos horaires ?",
+      "reponse": "Nous sommes joignables du lundi au samedi de 8h à 18h30, au 06 58 15 51 95. En cas de fuite ou de tuiles déplacées après un coup de vent, appelez-nous : nous posons une protection provisoire en priorité."
+    },
+    {
+      "question": "Travaillez-vous la tuile canal des maisons anciennes ?",
+      "reponse": "Oui. La tuile canal couvre la plupart des maisons de village et du centre de Carcassonne : nous la remanions, la reposons au mortier ou sur closoirs selon le support, en réutilisant les tuiles anciennes saines et en complétant avec des tuiles de récupération assorties."
+    },
+    {
+      "question": "À quelle fréquence faut-il démousser un toit dans l'Aude ?",
+      "reponse": "Tous les cinq à huit ans selon l'exposition. Les pans au nord et sous les arbres se couvrent plus vite de mousse et de lichens ; un traitement hydrofuge espace nettement les interventions."
+    },
+    {
+      "question": "Dans quelles communes intervenez-vous ?",
+      "reponse": "Nous intervenons à Carcassonne et dans le Carcassonnais et au pied de la Montagne Noire : Trèbes, Limoux, Pennautier, Villemoustaussou, Pezens, Berriac, Cazilhac, Palaja, Montréal, Arzens, Leuc, Couffoulens, Conques-sur-Orbiel, Lavalette et Alairac."
+    },
+    {
+      "question": "Quand faut-il envisager une rénovation de toiture ?",
+      "reponse": "Dès que vous constatez des tuiles glissées ou cassées, des traces d'humidité en sous-toiture, une mousse épaisse ou des gouttières qui débordent. Un diagnostic sur place permet de savoir si une réparation suffit ou si la réfection s'impose."
+    },
+    {
+      "question": "Proposez-vous des devis gratuits ?",
+      "reponse": "Oui, le devis est gratuit, détaillé poste par poste et sans engagement. Nous nous déplaçons sur place pour évaluer les travaux et vous donner un prix ferme."
+    }
+  ],
+  "contact_description": "Une fuite ou un projet de toiture ? Appelez-nous au 06 58 15 51 95, le devis est gratuit.",
+  "footer_description": "Couvreur à Carcassonne (11). Rénovation et réparation de toiture, zinguerie, démoussage, Velux, façade et peinture dans le Carcassonnais et au pied de la Montagne Noire.",
+  "horaires": {
+    "visible": true,
+    "adresse": "96 route de Montréal, 11000 Carcassonne",
+    "lat": 43.215031,
+    "lng": 2.297067,
+    "jours": [
+      {
+        "nom": "Lundi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "18:30",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Mardi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "18:30",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Mercredi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "18:30",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Jeudi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "18:30",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Vendredi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "18:30",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Samedi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "18:30",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Dimanche",
+        "ferme": true,
+        "matin_debut": "08:00",
+        "matin_fin": "12:00",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      }
+    ]
+  },
+  "seo": {
+    "title": "Couvreur à Carcassonne et à Trèbes (11) — toiture, zinguerie, démoussage | Horizon Sud Couverture",
+    "description": "Horizon Sud Couverture, couvreur à Carcassonne : rénovation et réparation de toiture, couverture neuve, démoussage, zinguerie, Velux, façade et peinture dans le Carcassonnais et au pied de la Montagne Noire. Devis gratuit au 06 58 15 51 95.",
+    "keywords": "couvreur Carcassonne, couvreur Trèbes, couvreur 11, rénovation toiture Aude, zinguerie Limoux, démoussage toiture Trèbes, couvreur Pennautier, couvreur Villemoustaussou, toiture Carcassonne, réparation fuite toiture Aude",
+    "email": "",
+    "code_postal": "11000",
+    "departement": "Aude",
+    "geo_region": "FR-11",
+    "lat": 43.215031,
+    "lng": 2.297067,
+    "villes": [
+      "Carcassonne",
+      "Trèbes",
+      "Limoux",
+      "Pennautier",
+      "Villemoustaussou",
+      "Pezens",
+      "Berriac",
+      "Cazilhac",
+      "Palaja",
+      "Montréal",
+      "Arzens",
+      "Leuc",
+      "Couffoulens",
+      "Conques-sur-Orbiel",
+      "Lavalette",
+      "Alairac"
+    ]
+  }
+}

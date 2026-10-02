@@ -1,0 +1,2128 @@
+<!DOCTYPE html>
+<!--
+╔══════════════════════════════════════════════════════════════════╗
+║        MAQUETTE ARTISAN CMS — TEMPLATE RÉUTILISABLE              ║
+║                                                                  ║
+║  Le contenu est géré via Decap CMS (Netlify CMS).                ║
+║  Modifier le fichier data/content.json ou passer par             ║
+║  l'interface /admin pour éditer textes et images.                ║
+║                                                                  ║
+║  VARIABLES À REMPLACER dans data/content.json :                  ║
+║  nom_entreprise, type_artisan, ville, telephone_*, annee         ║
+║  hero.titre, hero.description, hero.image                        ║
+║  apropos.texte, apropos.image, apropos.badges                    ║
+║  stats, services, avis, galerie, faq                             ║
+║  contact_description, footer_description                         ║
+╚══════════════════════════════════════════════════════════════════╝
+-->
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- OG-IMAGE-PERSIST (hors bloc SEO régénéré par l'admin — ne pas déplacer) -->
+  <meta property="og:image" content="https://horizon-sud-couverture.pages.dev/images/og-image.jpg?v=1" />
+  <meta property="og:image:secure_url" content="https://horizon-sud-couverture.pages.dev/images/og-image.jpg?v=1" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Horizon Sud Couverture – Couvreur à Carcassonne (11)" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://horizon-sud-couverture.pages.dev/images/og-image.jpg?v=1" />
+  <!-- /OG-IMAGE-PERSIST -->
+  <!-- SEO-BLOCK-START -->
+  <title>Couvreur à Carcassonne et à Trèbes (11) — toiture, zinguerie, démoussage | Horizon Sud Couverture</title>
+  <meta name="description" content="Horizon Sud Couverture, couvreur à Carcassonne : rénovation et réparation de toiture, couverture neuve, démoussage, zinguerie, Velux, façade et peinture dans le Carcassonnais et au pied de la Montagne Noire. Devis gratuit au 06 58 15 51 95." />
+  <meta name="keywords" content="couvreur Carcassonne, couvreur Trèbes, couvreur 11, rénovation toiture Aude, zinguerie Limoux, démoussage toiture Trèbes, couvreur Pennautier, couvreur Villemoustaussou, toiture Carcassonne, réparation fuite toiture Aude" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Horizon Sud Couverture" />
+  <link rel="canonical" href="https://horizon-sud-couverture.pages.dev/" />
+
+  <meta name="geo.region" content="FR-11" />
+  <meta name="geo.placename" content="Carcassonne" />
+  <meta name="geo.position" content="43.215031;2.297067" />
+  <meta name="ICBM" content="43.215031, 2.297067" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://horizon-sud-couverture.pages.dev/" />
+  <meta property="og:title" content="Horizon Sud Couverture – Couvreur à Carcassonne (11)" />
+  <meta property="og:description" content="Horizon Sud Couverture, couvreur à Carcassonne : rénovation et réparation de toiture, couverture neuve, démoussage, zinguerie, Velux, façade et peinture dans le Carcassonnais et au pied de la Montagne Noire. Devis gratuit au 06 58 15 51 95." />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="Horizon Sud Couverture" />
+
+  <meta name="twitter:title" content="Horizon Sud Couverture – Couvreur à Carcassonne (11)" />
+  <meta name="twitter:description" content="Horizon Sud Couverture, couvreur à Carcassonne : rénovation et réparation de toiture, couverture neuve, démoussage, zinguerie, Velux, façade et peinture dans le Carcassonnais et au pied de la Montagne Noire. Devis gratuit au 06 58 15 51 95." />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "Horizon Sud Couverture",
+  "description": "Couvreur à Carcassonne (11). Rénovation et réparation de toiture, zinguerie, démoussage, Velux, façade et peinture dans le Carcassonnais et au pied de la Montagne Noire.",
+  "url": "https://horizon-sud-couverture.pages.dev/",
+  "image": "https://horizon-sud-couverture.pages.dev/images/og-image.jpg",
+  "logo": "https://horizon-sud-couverture.pages.dev/icon-512.png",
+  "telephone": "+33658155195",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "96 route de Montréal",
+    "addressLocality": "Carcassonne",
+    "postalCode": "11000",
+    "addressRegion": "Aude",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.215031,
+    "longitude": 2.297067
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Aude (11)"
+    },
+    {
+      "@type": "City",
+      "name": "Carcassonne"
+    },
+    {
+      "@type": "City",
+      "name": "Trèbes"
+    },
+    {
+      "@type": "City",
+      "name": "Limoux"
+    },
+    {
+      "@type": "City",
+      "name": "Pennautier"
+    },
+    {
+      "@type": "City",
+      "name": "Villemoustaussou"
+    },
+    {
+      "@type": "City",
+      "name": "Pezens"
+    },
+    {
+      "@type": "City",
+      "name": "Berriac"
+    },
+    {
+      "@type": "City",
+      "name": "Cazilhac"
+    },
+    {
+      "@type": "City",
+      "name": "Palaja"
+    },
+    {
+      "@type": "City",
+      "name": "Montréal"
+    },
+    {
+      "@type": "City",
+      "name": "Arzens"
+    },
+    {
+      "@type": "City",
+      "name": "Leuc"
+    },
+    {
+      "@type": "City",
+      "name": "Couffoulens"
+    },
+    {
+      "@type": "City",
+      "name": "Conques-sur-Orbiel"
+    },
+    {
+      "@type": "City",
+      "name": "Lavalette"
+    },
+    {
+      "@type": "City",
+      "name": "Alairac"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Nos services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Rénovation et Réparation Toiture",
+          "description": "Inspection, diagnostic précis et travaux de remise à neuf pour prolonger la vie de votre toit et assurer son étanchéité.",
+          "url": "https://horizon-sud-couverture.pages.dev/renovation-reparation-toiture"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pose de Toiture Neuve",
+          "description": "Installation complète de toitures traditionnelles ou modernes, avec des matériaux adaptés à vos besoins et au climat local.",
+          "url": "https://horizon-sud-couverture.pages.dev/pose-toiture-neuve"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Entretien et Démoussage",
+          "description": "Nettoyage professionnel, traitement préventif et entretien régulier pour préserver l'intégrité et l'esthétique de votre couverture.",
+          "url": "https://horizon-sud-couverture.pages.dev/entretien-demoussage"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Peinture Intérieure",
+          "description": "Nous réalisons tous vos travaux de peinture pour murs, plafonds et boiseries. Choix de couleurs, conseils personnalisés et finitions impeccables pour un intérieur qui vous ressemble.",
+          "url": "https://horizon-sud-couverture.pages.dev/peinture-interieure"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Peinture Extérieure",
+          "description": "Protection et embellissement de vos façades, boiseries et ferronneries. Des produits résistants aux intempéries pour une durabilité et un esthétisme préservés.",
+          "url": "https://horizon-sud-couverture.pages.dev/peinture-exterieure"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Travaux de zinguerie",
+          "description": "Installation et réparation de gouttières, chéneaux et éléments en zinc pour une évacuation optimale des eaux pluviales et une protection accrue de votre façade.",
+          "url": "https://horizon-sud-couverture.pages.dev/zinguerie"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Nettoyage et ravalement façade",
+          "description": "Redonnez un coup de jeune à vos murs extérieurs. Nous nettoyons et traitons vos façades pour une protection durable et une esthétique renouvelée.",
+          "url": "https://horizon-sud-couverture.pages.dev/nettoyage-ravalement-facade"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Installation et remplacement de Velux",
+          "description": "Pose et remplacement de fenêtres de toit Velux pour apporter plus de lumière et améliorer votre confort.",
+          "url": "https://horizon-sud-couverture.pages.dev/pose-velux"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Peinture de toiture",
+          "description": "Redonnez de l'éclat à votre toiture grâce à une peinture professionnelle résistante aux intempéries et aux UV.",
+          "url": "https://horizon-sud-couverture.pages.dev/peinture-toiture"
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "3",
+    "bestRating": "5"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Oceane Barbis"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Travaux réalisés à mon domicile début septembre, artisan très compétant et à l’écoute de nos demandes. Les réparations ont été effectués rapidement et été conforme au devis et le travail soigné. Je recommande cette entreprise"
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Julien Ferrand"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Toiture en tuile canal remaniée et faîtage refait après des fuites. Devis clair, intervention rapide et chantier propre. Très satisfait du résultat."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Martine Escande"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Plusieurs tuiles déplacées après un coup de vent, l'artisan est venu vite et a tout remis en état. Sérieux et de bon conseil, je recommande."
+    }
+  ],
+  "openingHours": [
+    "Mo-Sa 08:00-18:30"
+  ]
+}
+</script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quels sont vos horaires ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous sommes joignables du lundi au samedi de 8h à 18h30, au 06 58 15 51 95. En cas de fuite ou de tuiles déplacées après un coup de vent, appelez-nous : nous posons une protection provisoire en priorité."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Travaillez-vous la tuile canal des maisons anciennes ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. La tuile canal couvre la plupart des maisons de village et du centre de Carcassonne : nous la remanions, la reposons au mortier ou sur closoirs selon le support, en réutilisant les tuiles anciennes saines et en complétant avec des tuiles de récupération assorties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "À quelle fréquence faut-il démousser un toit dans l'Aude ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tous les cinq à huit ans selon l'exposition. Les pans au nord et sous les arbres se couvrent plus vite de mousse et de lichens ; un traitement hydrofuge espace nettement les interventions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Dans quelles communes intervenez-vous ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous intervenons à Carcassonne et dans le Carcassonnais et au pied de la Montagne Noire : Trèbes, Limoux, Pennautier, Villemoustaussou, Pezens, Berriac, Cazilhac, Palaja, Montréal, Arzens, Leuc, Couffoulens, Conques-sur-Orbiel, Lavalette et Alairac."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quand faut-il envisager une rénovation de toiture ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dès que vous constatez des tuiles glissées ou cassées, des traces d'humidité en sous-toiture, une mousse épaisse ou des gouttières qui débordent. Un diagnostic sur place permet de savoir si une réparation suffit ou si la réfection s'impose."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Proposez-vous des devis gratuits ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, le devis est gratuit, détaillé poste par poste et sans engagement. Nous nous déplaçons sur place pour évaluer les travaux et vous donner un prix ferme."
+      }
+    }
+  ]
+}
+</script>
+
+  <link rel="preload" as="image" href="images/hero-bg.jpg" />
+  <!-- SEO-BLOCK-END -->
+  <!-- FAVICON (logo du site dans l'onglet du navigateur) -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico" sizes="32x32" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <meta name="theme-color" content="#9a3412" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary:    #0a0a0a;
+      --bg:         #ffffff;
+      --text:       #0a0a0a;
+      --muted:      rgba(10,10,10,0.60);
+      --border:     rgba(10,10,10,0.08);
+      --surface:    rgba(10,10,10,0.04);
+      --footer-bg:  #0a0a0a;
+      --r-btn:      9999px;
+      --stars:      #FBBC05;
+    }
+
+    /* scroll-padding : au clic sur une ancre, le titre ne se cache pas sous la barre fixe */
+    html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── NAV ──────────────────────────────────────── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      /* Fond opaque : le contenu qui défile dessous ne transparaît pas */
+      background: #fff;
+      border-bottom: 1px solid transparent;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 11%; height: 64px;
+      transition: background 0.35s, backdrop-filter 0.35s, box-shadow 0.35s, border-color 0.35s;
+    }
+    .nav-logo {
+      font-size: 1.05rem; font-weight: 700; color: var(--text);
+      text-decoration: none; letter-spacing: -0.01em;
+      /* le nom tient sur une seule ligne, même à 375 px */
+      white-space: nowrap;
+    }
+    @media (max-width: 600px){ .nav-logo { font-size: 0.9rem; } }
+    @media (max-width: 380px){ .nav-logo { font-size: 0.8rem; } }
+    .brand-accent { color: var(--primary); }
+    /* Logo client (logotype) detoure, sans fond */
+    .nav-logo { display: inline-flex; align-items: center; gap: 0.3em; }
+    .nav-logo-img { height: 52px; width: auto; display: block; }
+    .nav-logo-img.logo-light { display: none; }
+    nav.nav-transparent:not(.scrolled) .nav-logo-img.logo-dark { display: none; }
+    nav.nav-transparent:not(.scrolled) .nav-logo-img.logo-light { display: block; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.55)); }
+    @media (max-width: 600px){ .nav-logo-img { height: 42px; } }
+    .nav-links {
+      display: flex; align-items: center; list-style: none; gap: 0.2rem;
+    }
+    .nav-links a {
+      color: var(--muted); text-decoration: none;
+      font-size: 0.875rem; font-weight: 500;
+      padding: 0.4rem 0.75rem; border-radius: var(--r-btn);
+      transition: color 0.15s, background 0.15s;
+    }
+    .nav-links a:hover { color: var(--text); background: rgba(10,10,10,0.05); }
+    .nav-cta {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      background: var(--primary) !important; color: #fff !important;
+      padding: 0.5rem 1.1rem !important; border-radius: var(--r-btn) !important;
+      font-weight: 600 !important; font-size: 0.85rem !important;
+    }
+    .nav-cta:hover { opacity: 0.8; }
+    .nav-right { display: flex; align-items: center; gap: 0.5rem; }
+    /* Numéro de téléphone toujours visible, y compris sur mobile (hors menu burger) */
+    .nav-phone-mobile {
+      display: none; align-items: center; gap: 0.35rem;
+      background: var(--primary); color: #fff; text-decoration: none;
+      padding: 0.42rem 0.8rem; border-radius: var(--r-btn);
+      font-size: 0.8rem; font-weight: 700; white-space: nowrap;
+    }
+    .hamburger {
+      display: none; flex-direction: column; gap: 4px;
+      background: none; border: none; cursor: pointer; padding: 6px;
+    }
+    .hamburger span {
+      display: block; width: 20px; height: 1.5px;
+      background: var(--text); border-radius: 2px;
+      transition: background 0.25s;
+    }
+
+    /* ─── NAV VARIANTS ─────────────────────────────── */
+    /* Transparent : superposé au hero, devient solide au scroll */
+    nav.nav-transparent {
+      background: transparent;
+      backdrop-filter: none; -webkit-backdrop-filter: none;
+      border-bottom-color: transparent;
+    }
+    nav.nav-transparent .nav-logo { color: #fff; }
+    nav.nav-transparent .nav-links a { color: rgba(255,255,255,0.82); }
+    nav.nav-transparent .nav-links a:hover { color: #fff; background: rgba(255,255,255,0.12); }
+    nav.nav-transparent .nav-cta { background: rgba(255,255,255,0.15) !important; color: #fff !important; border: 1px solid rgba(255,255,255,0.35); }
+    nav.nav-transparent .hamburger span { background: #fff; }
+    nav.nav-transparent .nav-phone-mobile { background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.35); }
+    nav.nav-transparent.scrolled .nav-phone-mobile { background: var(--primary); border: none; }
+    nav.nav-transparent.scrolled {
+      background: #fff;
+      box-shadow: 0 1px 12px rgba(10,10,10,0.05);
+      border-bottom-color: rgba(10,10,10,0.08);
+    }
+    nav.nav-transparent.scrolled .nav-logo { color: var(--text); }
+    nav.nav-transparent.scrolled .nav-links a { color: var(--muted); }
+    nav.nav-transparent.scrolled .nav-links a:hover { color: var(--text); background: rgba(10,10,10,0.05); }
+    nav.nav-transparent.scrolled .nav-cta { background: var(--primary) !important; border: none; }
+    nav.nav-transparent.scrolled .hamburger span { background: var(--text); }
+    /* Mobile menu transparent */
+    nav.nav-transparent .nav-links.open { background: #fff; }
+    nav.nav-transparent .nav-links.open a { color: rgba(10,10,10,0.65); }
+
+    /* Flottant : carte arrondie flottante */
+    nav.nav-flottant {
+      top: 14px; left: 3%; right: 3%; width: auto;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.96);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10), 0 1px 4px rgba(0,0,0,0.06);
+      backdrop-filter: blur(20px) saturate(1.2);
+      -webkit-backdrop-filter: blur(20px) saturate(1.2);
+      padding: 0 2rem;
+      border-bottom: none;
+    }
+    @media (max-width: 960px) {
+      nav.nav-flottant { padding: 0 1.2rem; left: 3%; right: 3%; }
+      nav.nav-flottant .nav-links.open {
+        top: 72px; left: 3%; right: 3%; width: auto;
+        border-radius: 14px; border-bottom: none;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+      }
+    }
+
+    /* ─── BUTTONS ──────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      padding: 0.7rem 1.4rem; border-radius: var(--r-btn);
+      font-size: 0.9rem; font-weight: 600;
+      text-decoration: none; cursor: pointer; border: none;
+      transition: opacity 0.15s, transform 0.15s;
+    }
+    .btn:hover { opacity: 0.8; transform: translateY(-1px); }
+    .btn-dark  { background: var(--primary); color: #fff; }
+    .btn-white { background: #fff; color: var(--primary); }
+    .btn-link  {
+      background: none; color: var(--primary); padding: 0.7rem 0;
+      font-size: 0.9rem; font-weight: 600; border: none;
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      text-decoration: none; cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .btn-link:hover { opacity: 0.65; }
+    .btn-outline-white {
+      background: transparent; color: #fff;
+      border: 1.5px solid rgba(255,255,255,0.35);
+    }
+
+    /* ─── HERO ─────────────────────────────────────── */
+    #hero {
+      position: relative; min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      background: #111 center / cover no-repeat;
+    }
+    #hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: rgba(0,0,0,0.52);
+    }
+    .hero-inner {
+      position: relative; z-index: 1;
+      padding: 0 6%; max-width: 720px;
+      text-align: center; margin: 0 auto;
+    }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: #fff; font-size: 0.72rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      padding: 0.3rem 0.85rem; border-radius: var(--r-btn);
+      margin-bottom: 1.2rem;
+    }
+    #hero h1 {
+      color: #fff; font-size: clamp(1.9rem, 4.5vw, 3.1rem);
+      font-weight: 800; letter-spacing: -0.025em;
+      line-height: 1.13; margin-bottom: 1rem;
+    }
+    #hero p {
+      color: rgba(255,255,255,0.78); font-size: 1rem;
+      line-height: 1.65; margin-bottom: 2rem; max-width: 480px;
+      margin-left: auto; margin-right: auto;
+    }
+    .hero-btns { display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; }
+
+    /* ─── RÉASSURANCE ──────────────────────────────── */
+    #reassurance {
+      padding: 2.4rem 11%; background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+    .trust-grid {
+      display: grid; grid-template-columns: repeat(5,1fr);
+      gap: 1rem; max-width: 1150px; margin: 0 auto;
+    }
+    .trust-item {
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center; gap: 0.55rem;
+    }
+    .trust-ico {
+      width: 46px; height: 46px; border-radius: 50%; background: #fff;
+      border: 1.5px solid var(--border); color: var(--primary);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .trust-item strong { font-size: 0.86rem; font-weight: 700; line-height: 1.3; }
+    .trust-item span.trust-sub { font-size: 0.75rem; color: var(--muted); line-height: 1.45; }
+
+    /* ─── ZONES D'INTERVENTION ─────────────────────── */
+    #zones { background: var(--bg); }
+    .zones-inner { max-width: 900px; }
+    .zones-inner p { color: var(--muted); font-size: 0.95rem; line-height: 1.8; margin-bottom: 0.9rem; }
+    .villes { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
+    .ville-chip {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      background: #fff; border: 1px solid var(--border); color: var(--text);
+      font-size: 0.82rem; font-weight: 600; padding: 0.4rem 0.9rem;
+      border-radius: var(--r-btn); text-decoration: none;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .ville-chip:hover { border-color: var(--primary); color: var(--primary); }
+    .ville-chip svg { color: var(--primary); flex-shrink: 0; }
+
+    /* ─── SECTION LABELS & TITLES ───────────────────── */
+    .label {
+      display: block;
+      font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 0.9rem;
+    }
+    .title-underline {
+      display: block; width: 32px; height: 2px;
+      background: var(--primary); margin: 0.6rem 0 1.3rem;
+    }
+    .section-title {
+      font-size: clamp(1.65rem, 2.8vw, 2.2rem);
+      font-weight: 800; letter-spacing: -0.025em;
+      line-height: 1.15; margin-bottom: 0.65rem;
+    }
+    .section-desc {
+      color: var(--muted); font-size: 0.95rem; line-height: 1.65;
+    }
+    section { padding: 96px 11%; }
+
+    /* ─── ABOUT ────────────────────────────────────── */
+    #apropos { background: var(--bg); }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 5rem; align-items: center;
+    }
+    .about-text { order: 1; }
+    .about-photo { order: 2; }
+    .about-body-wrap { position: relative; margin-bottom: 1.8rem; }
+    .about-body {
+      color: var(--muted);
+      font-size: 0.95rem; line-height: 1.75;
+      max-height: calc(5 * 0.95rem * 1.75);
+      overflow: hidden;
+    }
+    .about-body.expanded { max-height: none; overflow: visible; }
+    .about-body p { margin-bottom: 0.85rem; }
+    .about-body p:last-child { margin-bottom: 0; }
+    /* Collapsed : marges inter-paragraphes neutralisées → lignes uniformes,
+       la troncature tombe toujours sur une ligne entière (jamais coupée en deux). */
+    .about-body:not(.expanded) p { margin-bottom: 0; }
+    .read-more-wrap { margin: 0.2rem 0 0; font-size: 0.95rem; line-height: 1.75; }
+    .read-more-dots { color: var(--muted); }
+    #readMoreBtn { color: var(--primary); font-weight: 700; text-decoration: none; }
+    #readMoreBtn:hover { text-decoration: underline; }
+    .about-body-wrap.expanded .read-more-dots { display: none; }
+    .about-photo img {
+      width: 100%; border-radius: 14px;
+      aspect-ratio: 4/3; object-fit: cover; display: block;
+    }
+    .about-badges {
+      display: flex; flex-wrap: wrap; gap: 0.5rem;
+      margin-bottom: 1.3rem;
+    }
+    .badge {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      background: rgba(10,10,10,0.07); color: var(--text);
+      font-size: 0.78rem; font-weight: 600;
+      padding: 0.32rem 0.85rem; border-radius: var(--r-btn);
+    }
+    .badge-check { font-size: 0.7rem; }
+    .about-btns { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; }
+
+    /* ─── STATS ─────────────────────────────────────── */
+    #stats { background: var(--bg); padding: 3rem 11% 5rem; margin: 0; }
+    .stats-inner {
+      display: flex; align-items: center; justify-content: center;
+      background: var(--primary); border-radius: 1.5rem; padding: 3rem 4rem;
+    }
+    .stat-block { flex: 1; text-align: center; }
+    .stat-val {
+      font-size: clamp(2.5rem, 5vw, 3.8rem);
+      font-weight: 800; color: #fff;
+      letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem;
+    }
+    .stat-lbl {
+      font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+    }
+    .stats-divider {
+      width: 1px; height: 56px;
+      background: rgba(255,255,255,0.15); margin: 0 4rem;
+    }
+
+    /* ─── STATS VARIANTS ────────────────────────────── */
+    /* Classique : bande plein-écran sans border-radius */
+    #stats.stats-classique { background: var(--primary); padding: 4rem 11%; }
+    #stats.stats-classique .stats-inner { background: transparent; border-radius: 0; padding: 0; }
+
+    /* Minimal : fond blanc, chiffres colorés avec ligne */
+    #stats.stats-minimal .stats-inner {
+      background: transparent; border-radius: 0; padding: 2rem 0;
+    }
+    #stats.stats-minimal .stat-val { color: var(--primary); }
+    #stats.stats-minimal .stat-val::after {
+      content: ''; display: block; width: 24px; height: 2px;
+      background: var(--primary); margin: 8px auto 0; border-radius: 2px;
+    }
+    #stats.stats-minimal .stat-lbl { color: var(--muted); }
+    #stats.stats-minimal .stats-divider { background: var(--border); height: 40px; }
+
+    /* ─── SERVICES ─────────────────────────────────── */
+    #services { background: var(--bg); }
+    .services-header { margin-bottom: 3rem; }
+    .services-grid {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 1.25rem;
+    }
+    .service-card {
+      border: 1px solid var(--border); border-radius: 14px;
+      overflow: hidden; background: var(--bg);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .service-card:hover { transform: translateY(-3px); box-shadow: 0 10px 32px rgba(10,10,10,0.10); }
+    .service-card img { width: 100%; aspect-ratio: 16/10; object-fit: cover; display: block; }
+    .service-body { padding: 1.3rem 1.4rem 1.5rem; }
+    .service-body h3 { font-size: 1rem; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 0.5rem; color: var(--primary); }
+    .service-body p { color: var(--muted); font-size: 0.875rem; line-height: 1.65; }
+    a.service-card { display: block; color: inherit; text-decoration: none; }
+    .service-more {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      color: var(--primary); font-weight: 700; font-size: 0.83rem; margin-top: 0.8rem;
+    }
+    a.service-card:hover .service-more { gap: 0.5rem; }
+
+    /* ─── TESTIMONIALS ─────────────────────────────── */
+    #avis { background: var(--bg); }
+    .avis-center { text-align: center; margin-bottom: 2rem; }
+    .google-rating {
+      display: inline-flex; align-items: center; gap: 0.6rem; margin-top: 1.2rem;
+    }
+    .g-logo { width: 22px; height: 22px; flex-shrink: 0; }
+    .g-stars { color: var(--stars); font-size: 1.1rem; letter-spacing: 1px; }
+    .g-score { font-size: 0.9rem; color: var(--muted); font-weight: 500; }
+    .reviews-grid {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin-top: 2.5rem;
+    }
+    .review-card {
+      background: #fff; border: 1px solid rgba(10,10,10,0.07);
+      border-radius: 12px; padding: 1.4rem; position: relative;
+    }
+    .review-top { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.9rem; }
+    .review-avatar {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: rgba(10,10,10,0.07); color: var(--text);
+      font-size: 0.85rem; font-weight: 600;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+      border: 1.5px solid var(--border);
+    }
+    .review-name { font-size: 0.88rem; font-weight: 700; }
+    .review-stars { color: var(--stars); font-size: 0.8rem; }
+    .review-g { position: absolute; top: 1.2rem; right: 1.2rem; width: 16px; height: 16px; }
+    .review-text { color: var(--muted); font-size: 0.875rem; line-height: 1.7; }
+
+    /* ─── GALLERY ───────────────────────────────────── */
+    #galerie { background: var(--bg); }
+    .gallery-grid {
+      display: grid; grid-template-columns: repeat(3,1fr);
+      gap: 0.75rem; margin-top: 3rem;
+    }
+    .gallery-item { border-radius: 10px; overflow: hidden; aspect-ratio: 4/3; cursor: zoom-in; background: #f4f4f5; }
+    .gallery-item img {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+      transition: transform 0.4s ease;
+    }
+    .gallery-item:hover img { transform: scale(1.04); }
+    .lightbox {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.93); z-index: 200;
+      align-items: center; justify-content: center;
+    }
+    .lightbox.open { display: flex; }
+    .lb-top {
+      position: absolute; top: 0; left: 0; right: 0;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.1rem 1.4rem;
+    }
+    .lb-counter {
+      color: rgba(255,255,255,0.65); font-size: 0.82rem;
+      font-weight: 600; letter-spacing: 0.04em;
+    }
+    .lb-close {
+      background: none; border: none; color: rgba(255,255,255,0.65);
+      font-size: 1.3rem; cursor: pointer; line-height: 1;
+      padding: 0.3rem; transition: color 0.15s;
+    }
+    .lb-close:hover { color: #fff; }
+    .lightbox img {
+      max-width: min(90vw, 1100px); max-height: 78vh;
+      border-radius: 8px; object-fit: contain;
+    }
+    .lb-arrow {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      background: rgba(255,255,255,0.12); border: none; color: #fff;
+      width: 44px; height: 44px; border-radius: 50%;
+      font-size: 1.6rem; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.15s; user-select: none;
+    }
+    .lb-arrow:hover { background: rgba(255,255,255,0.22); }
+    .lb-prev { left: 1.2rem; }
+    .lb-next { right: 1.2rem; }
+    .lb-dots-bar {
+      position: absolute; bottom: 1.4rem; left: 0; right: 0;
+      display: flex; justify-content: center; gap: 7px;
+    }
+    .lb-dot {
+      width: 7px; height: 7px; border-radius: 9999px;
+      background: rgba(255,255,255,0.3); cursor: pointer;
+      transition: background 0.2s, width 0.2s;
+    }
+    .lb-dot.active { width: 22px; background: #fff; border-radius: 3px; }
+
+    /* ─── FAQ ───────────────────────────────────────── */
+    #faq { background: var(--bg); }
+    .faq-header { text-align: center; margin-bottom: 3rem; }
+    .faq-list { list-style: none; max-width: 760px; margin: 0 auto; }
+    .faq-item { border-bottom: 1px solid var(--border); background: #fff; }
+    .faq-btn {
+      width: 100%; background: none; border: none; text-align: left;
+      padding: 1.15rem 0; font-size: 0.93rem; font-weight: 600;
+      color: var(--primary); cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+    }
+    .faq-btn svg { width: 16px; height: 16px; flex-shrink: 0; stroke: var(--primary); transition: transform 0.3s; }
+    .faq-item.open .faq-btn svg { transform: rotate(45deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-item.open .faq-answer { max-height: 300px; }
+    .faq-item.open {
+      border: 1.5px solid color-mix(in srgb, var(--primary) 22%, transparent);
+      border-radius: 8px;
+      padding: 0 0.9rem;
+      margin-bottom: 0.3rem;
+    }
+    .faq-answer p { color: var(--muted); font-size: 0.88rem; line-height: 1.75; padding-bottom: 1.2rem; }
+
+    /* ─── HORAIRES ─────────────────────────────────── */
+    #horaires { background: var(--bg); }
+    .horaires-header { text-align: center; margin-bottom: 3rem; }
+    .horaires-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; max-width: 1100px; margin: 0 auto; }
+    .horaires-table { }
+    #mapContainer {
+      height: 360px; border-radius: 12px; overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+      position: relative; z-index: 0;
+      contain: layout paint;
+    }
+    #horaireMap { width: 100%; height: 100%; }
+    .leaflet-pane,
+    .leaflet-top,
+    .leaflet-bottom { z-index: 1 !important; }
+    .leaflet-popup { max-width: 200px; }
+    @media (max-width: 900px) { .horaires-layout { grid-template-columns: 1fr; } }
+    .horaire-row {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.85rem 1.2rem; border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .horaire-row:nth-child(even) { background: var(--surface); }
+    .horaire-jour {
+      display: flex; align-items: center; gap: 0.65rem;
+      font-weight: 600; color: var(--text); min-width: 110px;
+    }
+    .horaire-jour svg { color: var(--primary); flex-shrink: 0; }
+    .horaire-row.ferme .horaire-jour { color: var(--muted); }
+    .horaire-heures { color: var(--muted); font-size: 0.875rem; }
+    .horaire-row.ferme .horaire-heures { font-style: italic; }
+
+    /* ─── CONTACT ───────────────────────────────────── */
+    #contact { background: var(--bg); text-align: center; padding: 96px 11%; }
+    .contact-label {
+      display: block; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: rgba(10,10,10,0.45); margin-bottom: 0.9rem;
+    }
+    #contact .section-title { margin-bottom: 0.65rem; }
+    #contact .section-desc { margin: 0 auto 2.5rem; max-width: 460px; }
+    .contact-cta-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: var(--primary); color: #fff;
+      padding: 0.85rem 2rem; border-radius: var(--r-btn);
+      font-size: 0.95rem; font-weight: 700; text-decoration: none;
+      transition: opacity 0.15s;
+    }
+    .contact-cta-btn:hover { opacity: 0.8; }
+
+    /* ─── FOOTER ────────────────────────────────────── */
+    footer { background: var(--footer-bg); padding: 3.5rem 11% 2rem; }
+    .footer-grid {
+      display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+      gap: 2.5rem; margin-bottom: 2.5rem;
+    }
+    .footer-horaires {
+      display: block; font-size: 0.8rem; color: rgba(255,255,255,0.42);
+      line-height: 1.7; margin-top: 0.3rem;
+    }
+    .footer-villes {
+      font-size: 0.75rem; color: rgba(255,255,255,0.28);
+      line-height: 1.7; margin: 0 0 1.4rem; text-align: center;
+    }
+    .footer-brand { font-size: 1rem; font-weight: 700; color: #fff; margin-bottom: 0.7rem; display: block; }
+    .footer-desc { font-size: 0.82rem; line-height: 1.65; color: rgba(255,255,255,0.45); }
+    .footer-col-label {
+      display: block; font-size: 0.68rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: rgba(255,255,255,0.35); margin-bottom: 1rem;
+    }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+    .footer-links a {
+      color: rgba(255,255,255,0.65); text-decoration: none;
+      font-size: 0.85rem; transition: color 0.15s;
+    }
+    .footer-links a:hover { color: #fff; }
+    .footer-contact-item {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-size: 0.85rem; color: rgba(255,255,255,0.65);
+      margin-bottom: 0.55rem; text-decoration: none;
+    }
+    .footer-contact-item:hover { color: #fff; }
+    .footer-contact-item svg { flex-shrink: 0; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 1.5rem; font-size: 0.78rem;
+      text-align: center; color: rgba(255,255,255,0.3);
+      display: flex; flex-wrap: wrap; gap: 0.4rem 1rem;
+      justify-content: center; align-items: center;
+    }
+    .footer-bottom a { color: rgba(255,255,255,0.55); text-decoration: none; }
+    .footer-bottom a:hover { color: #fff; text-decoration: underline; }
+
+    /* ─── CAROUSEL DOTS & ARROWS ───────────────────── */
+    .carousel-wrap { position: relative; }
+    .carousel-arrow { display: none; }
+    .dots { display: none !important; }
+
+    /* ─── BEFORE / AFTER SLIDER ─────────────────────── */
+    #galerie .gallery-grid { align-items: start; }
+    .ba-item { display: flex; flex-direction: column; gap: 0.7rem; }
+    .ba-slider {
+      position: relative; width: 100%; aspect-ratio: 3/4;
+      border-radius: 12px; overflow: hidden;
+      cursor: ew-resize; user-select: none; touch-action: pan-y;
+      box-shadow: 0 4px 20px rgba(10,10,10,0.10); background: #111;
+    }
+    .ba-slider img {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; display: block; pointer-events: none;
+    }
+    .ba-before { clip-path: inset(0 calc(100% - var(--pos, 50%)) 0 0); z-index: 2; }
+    .ba-after  { z-index: 1; }
+    .ba-label {
+      position: absolute; top: 0.7rem; z-index: 3;
+      background: rgba(10,10,10,0.62); color: #fff;
+      font-size: 0.66rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 0.28rem 0.6rem;
+      border-radius: var(--r-btn); backdrop-filter: blur(4px); pointer-events: none;
+    }
+    .ba-label-before { left: 0.7rem; }
+    .ba-label-after  { right: 0.7rem; }
+    .ba-line {
+      position: absolute; top: 0; bottom: 0; z-index: 4;
+      left: var(--pos, 50%); width: 2px; margin-left: -1px;
+      background: #fff; box-shadow: 0 0 8px rgba(0,0,0,0.35); pointer-events: none;
+    }
+    .ba-handle {
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+      width: 38px; height: 38px; border-radius: 50%;
+      background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.28);
+      display: flex; align-items: center; justify-content: center; color: var(--primary);
+    }
+    .ba-handle svg { width: 18px; height: 18px; }
+    .ba-legend { font-size: 0.82rem; font-weight: 600; color: var(--muted); text-align: center; }
+
+    /* ─── DEVIS FORM ───────────────────────────────── */
+    #devis { background: var(--bg); }
+    .devis-header { text-align: center; margin-bottom: 3rem; }
+    .devis-form {
+      max-width: 780px; margin: 0 auto; background: #fff; border-radius: 18px;
+      padding: 2.5rem 2.8rem; box-shadow: 0 4px 32px rgba(10,10,10,0.07);
+      border: 1px solid var(--border);
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; margin-bottom: 1.1rem; }
+    .form-group { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1.1rem; }
+    .form-row .form-group { margin-bottom: 0; }
+    .form-group label {
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--muted);
+    }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%; padding: 0.72rem 1rem; border: 1.5px solid var(--border);
+      border-radius: 10px; font-size: 0.9rem; font-family: inherit; color: var(--text);
+      background: #fff; transition: border-color 0.15s, box-shadow 0.15s;
+      appearance: none; -webkit-appearance: none;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(10,10,10,0.06);
+    }
+    .form-group textarea { min-height: 110px; resize: vertical; }
+    .form-group select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 1rem center;
+      padding-right: 2.5rem; cursor: pointer;
+    }
+    .form-urgence-row { display: flex; gap: 0.75rem; margin-top: 0.2rem; }
+    .urgence-option {
+      flex: 1; display: flex; align-items: center; gap: 0.5rem;
+      padding: 0.65rem 1rem; border-radius: 10px; border: 1.5px solid var(--border);
+      cursor: pointer; font-size: 0.875rem; font-weight: 500; color: var(--muted);
+      transition: border-color 0.15s, color 0.15s, background 0.15s; user-select: none;
+    }
+    .urgence-option input[type="radio"] { display: none; }
+    .urgence-option.selected, .urgence-option:has(input:checked) {
+      border-color: var(--primary); color: var(--primary); background: var(--surface); font-weight: 600;
+    }
+    .urgence-dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      border: 2px solid currentColor; flex-shrink: 0; transition: background 0.15s;
+    }
+    .urgence-option.selected .urgence-dot, .urgence-option:has(input:checked) .urgence-dot { background: currentColor; }
+    .form-submit-row { margin-top: 1.8rem; text-align: center; }
+    .form-submit-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: var(--primary); color: #fff; padding: 0.9rem 2.4rem;
+      border-radius: var(--r-btn); font-size: 0.95rem; font-weight: 700;
+      border: none; cursor: pointer; transition: opacity 0.15s, transform 0.15s; font-family: inherit;
+    }
+    .form-submit-btn:hover { opacity: 0.82; transform: translateY(-1px); }
+    .form-submit-btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+    .form-mention { text-align: center; font-size: 0.75rem; color: var(--muted); margin-top: 0.9rem; }
+    .form-success { display: none; text-align: center; padding: 2.5rem 1.5rem; }
+    .form-success-icon { font-size: 2.5rem; margin-bottom: 0.8rem; }
+    .form-success h3 { font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .form-success p { color: var(--muted); font-size: 0.9rem; }
+    .whatsapp-block {
+      display: flex; align-items: center; gap: 1.2rem; background: #f0fdf4;
+      border: 1.5px solid #bbf7d0; border-radius: 12px; padding: 1rem 1.2rem;
+    }
+    .whatsapp-block-text { flex: 1; }
+    .whatsapp-block-text strong { display: block; color: #15803d; font-size: 0.9rem; margin-bottom: 0.2rem; }
+    .whatsapp-block-text span { color: var(--muted); font-size: 0.82rem; }
+    .whatsapp-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem; flex-shrink: 0;
+      background: #25d366; color: #fff; padding: 0.65rem 1.2rem; border-radius: 50px;
+      font-size: 0.88rem; font-weight: 700; text-decoration: none;
+      transition: background 0.15s, transform 0.1s; white-space: nowrap;
+    }
+    .whatsapp-btn:hover { background: #1ebe5d; transform: scale(1.03); }
+    .whatsapp-btn:active { transform: scale(0.97); }
+    @media (max-width: 600px) {
+      .form-row { grid-template-columns: 1fr; }
+      .devis-form { padding: 1.5rem 1.2rem; border-radius: 12px; }
+      .form-urgence-row { flex-direction: column; }
+      .whatsapp-block { flex-direction: column; align-items: flex-start; }
+      .whatsapp-btn { width: 100%; justify-content: center; }
+    }
+
+    /* ─── ANIMATIONS ───────────────────────────────── */
+    .fade-up {
+      opacity: 0; transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+      transition-delay: var(--delay, 0s);
+    }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─── RESPONSIVE 960px ──────────────────────────── */
+    @media (max-width: 960px) {
+      .nav-links { display: none; }
+      .nav-phone-mobile { display: inline-flex; }
+      /* Flex plutôt que grille : la dernière ligne incomplète reste centrée */
+      .trust-grid {
+        display: flex; flex-wrap: wrap; justify-content: center;
+        gap: 1.4rem; grid-template-columns: none;
+      }
+      .trust-item { flex: 0 0 calc(33.333% - 1rem); }
+      .nav-links.open {
+        display: flex; flex-direction: column;
+        position: absolute; top: 64px; left: 0; right: 0;
+        background: #fff; box-shadow: 0 8px 20px rgba(10,10,10,0.10);
+        padding: 1.2rem 5% 1.6rem; gap: 0.25rem;
+        border-bottom: 1px solid var(--border);
+      }
+      .hamburger { display: flex; }
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .about-text { order: 1; }
+      .about-photo { order: 2; }
+      .services-grid { grid-template-columns: 1fr 1fr; }
+      .reviews-grid  { grid-template-columns: 1fr 1fr; }
+      .gallery-grid  { grid-template-columns: 1fr 1fr; }
+      .faq-list { max-width: 100%; }
+      .stats-divider { margin: 0 2rem; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    }
+
+    /* ─── TABLETTE (601–960px) ──────────────────────── */
+    /* Sur 2 colonnes, 3 avis / 3 réalisations laissaient le dernier élément
+       seul à gauche : on centre la ligne incomplète. */
+    @media (min-width: 601px) and (max-width: 960px) {
+      .reviews-grid, .gallery-grid {
+        display: flex; flex-wrap: wrap; justify-content: center;
+        grid-template-columns: none;
+      }
+      .reviews-grid > * { flex: 0 0 calc(50% - 0.5rem); }
+      .gallery-grid > * { flex: 0 0 calc(50% - 0.375rem); }
+    }
+
+    /* ─── RESPONSIVE 600px (mobile) ─────────────────── */
+    @media (max-width: 600px) {
+      section { padding: 64px 6%; }
+      #reassurance { padding: 2rem 6%; }
+      .trust-grid { gap: 1.3rem; }
+      .trust-item { flex: 0 0 calc(50% - 0.65rem); }
+      .footer-grid { grid-template-columns: 1fr; }
+      nav { padding: 0 5%; }
+      .nav-phone-mobile { font-size: 0.76rem; padding: 0.4rem 0.7rem; }
+      .reviews-grid { grid-template-columns: 1fr; }
+
+      .services-grid {
+        display: flex; overflow-x: auto; scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; align-items: flex-start;
+        gap: 1rem; padding-bottom: 0.5rem;
+        scrollbar-width: none; grid-template-columns: none;
+      }
+      .services-grid::-webkit-scrollbar { display: none; }
+      .services-grid .service-card {
+        min-width: 80vw; width: 80vw; scroll-snap-align: start; flex-shrink: 0;
+      }
+      .services-grid .service-card img {
+        height: 50vw; width: 100%; object-fit: cover; display: block; aspect-ratio: unset;
+      }
+
+      .gallery-grid {
+        display: flex; overflow-x: auto; scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; align-items: flex-start;
+        gap: 0.75rem; padding-bottom: 0.5rem; margin-top: 1.5rem;
+        scrollbar-width: none; grid-template-columns: none;
+      }
+      .gallery-grid::-webkit-scrollbar { display: none; }
+      .gallery-grid .gallery-item {
+        min-width: 80vw; width: 80vw; height: 60vw;
+        scroll-snap-align: start; flex-shrink: 0; aspect-ratio: unset;
+      }
+      .gallery-grid .gallery-item img {
+        width: 100%; height: 100%; object-fit: cover; display: block;
+      }
+
+      .carousel-dots {
+        display: flex; justify-content: center; gap: 6px; margin-top: 1.2rem;
+      }
+      .carousel-dot {
+        width: 6px; height: 6px; border-radius: 9999px;
+        background: rgba(10,10,10,0.18); cursor: pointer;
+        transition: width 0.3s, background 0.3s;
+      }
+      .carousel-dot.active { width: 20px; background: var(--primary); }
+    }
+      .nav-links a, .nav-cta { white-space: nowrap; }
+    @media (min-width: 961px) and (max-width: 1320px) { .nav-links a { padding-left: .42rem; padding-right: .42rem; font-size: .8rem; } .nav-logo { font-size: .98rem; } }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo" id="navLogo">…</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#apropos">À propos</a></li>
+    <li><a href="#avis">Avis</a></li>
+    <li><a href="#zones">Zones</a></li>
+    <li><a href="#galerie">Réalisations</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li id="horairesNavLi" style="display:none"><a href="#horaires">Horaires</a></li>
+    <li><a href="#devis">Devis gratuit</a></li>
+    <li>
+      <a href="#" class="nav-cta phone-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 010 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        <span class="phone-text">06 58 15 51 95</span>
+      </a>
+    </li>
+  </ul>
+  <div class="nav-right">
+    <a href="#" class="nav-phone-mobile phone-link" aria-label="Appeler Horizon Sud Couverture">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 010 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+      <span class="phone-text">06 58 15 51 95</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+    <span class="hero-eyebrow fade-up" style="--delay:.1s">
+      <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--primary);flex-shrink:0"></span>
+      <span id="heroEyebrow"> </span>
+    </span>
+    <h1 class="fade-up" style="--delay:.25s" id="heroTitle"> </h1>
+    <p class="fade-up" style="--delay:.4s" id="heroDesc"> </p>
+    <div class="hero-btns fade-up" style="--delay:.55s">
+      <a href="#" class="btn btn-dark phone-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 010 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        <span class="phone-text">06 58 15 51 95</span>
+      </a>
+      <a href="#devis" class="btn btn-outline-white">Devis gratuit</a>
+    </div>
+  </div>
+</section>
+
+<!-- RÉASSURANCE -->
+<div id="reassurance">
+  <div class="trust-grid">
+    <div class="trust-item">
+      <span class="trust-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+      <strong>Artisan local</strong>
+      <span class="trust-sub">Basé à Carcassonne (11000)</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.4 8.9-8 10-4.6-1.1-8-5-8-10V6z"/><polyline points="9 12 11 14 15 10"/></svg></span>
+      <strong>Garantie décennale</strong>
+      <span class="trust-sub">Travaux couverts 10 ans</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg></span>
+      <strong>Devis gratuit</strong>
+      <span class="trust-sub">Sans engagement, sous 24h</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
+      <strong>Intervention rapide</strong>
+      <span class="trust-sub">Fuite, tempête, grêle</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 01-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 011-1c2 0 4.5-1.2 6.24-2.72a1 1 0 011.52 0C14.5 3.8 17 5 19 5a1 1 0 011 1z"/></svg></span>
+      <strong>Assurance professionnelle</strong>
+      <span class="trust-sub">Responsabilité civile pro</span>
+    </div>
+  </div>
+</div>
+
+<!-- À PROPOS -->
+<section id="apropos">
+  <div class="about-grid">
+    <div class="about-text">
+      <span class="label">À propos</span>
+      <h2 class="section-title" id="aboutTitle"> </h2>
+      <span class="title-underline"></span>
+      <div class="about-badges" id="aboutBadges"></div>
+      <div class="about-body-wrap" id="aboutBodyWrap">
+        <div class="about-body" id="aboutBody"></div>
+        <p class="read-more-wrap" id="readMoreWrap"><span class="read-more-dots">… </span><a href="#" id="readMoreBtn">Lire la suite</a></p>
+      </div>
+      <div class="about-btns">
+        <a href="#" class="btn btn-dark phone-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 010 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+          Nous appeler
+        </a>
+        <a href="#services" class="btn-link">
+          Découvrir nos services
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="about-photo">
+      <img id="aboutImg" src="" alt="" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="stats-inner" id="statsInner"></div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header">
+    <span class="label">Ce que nous proposons</span>
+    <h2 class="section-title">Nos services de couverture dans le Carcassonnais et au pied de la Montagne Noire</h2>
+    <span class="title-underline"></span>
+    <p class="section-desc" style="max-width:620px">Rénovation et réparation de toiture, couverture neuve, zinguerie, démoussage, ravalement de façade, pose de Velux et travaux de peinture — à Carcassonne, à Trèbes et dans le Carcassonnais et au pied de la Montagne Noire. Cliquez sur une prestation pour en savoir plus.</p>
+  </div>
+  <div class="carousel-wrap">
+    <button class="carousel-arrow carousel-prev" id="servicesPrev">&#8249;</button>
+    <div class="services-grid" id="servicesGrid"></div>
+    <button class="carousel-arrow carousel-next" id="servicesNext">&#8250;</button>
+  </div>
+  <div class="carousel-dots" id="servicesDots"></div>
+</section>
+
+<!-- ZONES D'INTERVENTION -->
+<section id="zones">
+  <div class="zones-inner">
+    <span class="label">Zones d'intervention</span>
+    <h2 class="section-title">Votre couvreur dans l'Aude : Trèbes, Limoux, Pennautier…</h2>
+    <span class="title-underline"></span>
+    <p>Installés <strong>à Carcassonne (11000)</strong>, nous intervenons dans le Carcassonnais et au pied de la Montagne Noire : <strong>Trèbes</strong>, <strong>Limoux</strong>, <strong>Pennautier</strong>, <strong>Villemoustaussou</strong>, Pezens, Berriac, Cazilhac, Palaja, Montréal, Arzens, Leuc, Couffoulens, Conques-sur-Orbiel, Lavalette et Alairac.</p>
+    <p>Nous réalisons la <strong>rénovation de toiture</strong>, la <strong>réparation de fuite</strong>, la <strong>pose de couverture neuve</strong>, la <strong>zinguerie</strong>, le <strong>démoussage</strong>, la <strong>pose de Velux</strong>, le <strong>ravalement de façade</strong> et les <strong>travaux de peinture</strong>. Couvertures en tuile canal, tuile romane et tuile mécanique : nous connaissons le bâti du Carcassonnais et de la Montagne Noire.</p>
+    <div class="villes">
+      <a class="ville-chip" href="zones-intervention.html">Carcassonne</a>
+      <a class="ville-chip" href="zones-intervention.html">Trèbes</a>
+      <a class="ville-chip" href="zones-intervention.html">Limoux</a>
+      <a class="ville-chip" href="zones-intervention.html">Pennautier</a>
+      <a class="ville-chip" href="zones-intervention.html">Villemoustaussou</a>
+      <a class="ville-chip" href="zones-intervention.html">Pezens</a>
+      <a class="ville-chip" href="zones-intervention.html">Berriac</a>
+      <a class="ville-chip" href="zones-intervention.html">Cazilhac</a>
+      <a class="ville-chip" href="zones-intervention.html">Palaja</a>
+      <a class="ville-chip" href="zones-intervention.html">Montréal</a>
+      <a class="ville-chip" href="zones-intervention.html">Arzens</a>
+      <a class="ville-chip" href="zones-intervention.html">Leuc</a>
+      <a class="ville-chip" href="zones-intervention.html">Couffoulens</a>
+      <a class="ville-chip" href="zones-intervention.html">Conques-sur-Orbiel</a>
+      <a class="ville-chip" href="zones-intervention.html">Lavalette</a>
+      <a class="ville-chip" href="zones-intervention.html">Alairac</a>
+    </div>
+  </div>
+</section>
+
+<!-- AVIS GOOGLE -->
+<section id="avis">
+  <div class="avis-center">
+    <span class="label">Témoignages</span>
+    <h2 class="section-title">Ce que disent nos clients</h2>
+    <span class="title-underline" style="margin: 0.6rem auto 1.3rem"></span>
+    <div class="google-rating">
+      <svg class="g-logo" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+        <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+        <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+        <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+      </svg>
+      <span class="g-stars">★★★★★</span>
+      <span class="g-score" id="googleScore"> </span>
+    </div>
+  </div>
+  <div class="reviews-grid" id="reviewsGrid"></div>
+</section>
+
+<!-- GALERIE -->
+<section id="galerie">
+  <div style="margin-bottom:3rem">
+    <span class="label">Nos réalisations</span>
+    <h2 class="section-title">Galerie</h2>
+    <span class="title-underline"></span>
+  </div>
+  <div class="gallery-grid" id="galleryGrid"></div>
+  <div class="carousel-dots" id="galleryDots"></div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <div class="lb-top">
+    <span class="lb-counter" id="lbCounter">1 / 6</span>
+    <button class="lb-close" id="lbClose">✕</button>
+  </div>
+  <button class="lb-arrow lb-prev" id="lbPrev">&#8249;</button>
+  <img id="lbImg" src="" alt="" />
+  <button class="lb-arrow lb-next" id="lbNext">&#8250;</button>
+  <div class="lb-dots-bar" id="lbDotsBar"></div>
+</div>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="faq-header">
+    <span class="label">FAQ</span>
+    <h2 class="section-title">Questions fréquentes</h2>
+    <span class="title-underline" style="margin:0.6rem auto 0"></span>
+  </div>
+  <ul class="faq-list" id="faqList"></ul>
+</section>
+
+<!-- HORAIRES -->
+<section id="horaires" style="display:none">
+  <div class="horaires-header">
+    <span class="label">Horaires</span>
+    <h2 class="section-title">Horaires &amp; Lieu</h2>
+    <span class="title-underline" style="margin:0.6rem auto 0"></span>
+    <p id="horaireAdresse" style="color:var(--muted);margin-top:0.5rem"></p>
+  </div>
+  <div class="horaires-layout">
+    <div class="horaires-table" id="horairesTable"></div>
+    <div id="mapContainer"><div id="horaireMap" style="width:100%;height:100%"></div></div>
+  </div>
+</section>
+
+<!-- DEVIS -->
+<section id="devis">
+  <div class="devis-header">
+    <span class="label" style="text-align:center">Demande de devis</span>
+    <h2 class="section-title">Obtenez votre devis gratuit</h2>
+    <span class="title-underline" style="margin:0.6rem auto 0.5rem"></span>
+    <p class="section-desc" style="max-width:520px;margin:0 auto">Décrivez votre projet — toiture, façade ou peinture — nous vous recontactons sous 24h pour établir un devis précis et sans engagement.</p>
+  </div>
+
+  <div class="devis-form" id="devisFormWrap">
+    <form id="devisForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="a6ffc352-1b91-4975-989e-b4e37e807f78" />
+      <input type="hidden" name="subject" value="Nouvelle demande de devis — Horizon Sud Couverture" />
+      <input type="hidden" name="from_name" value="Formulaire Horizon Sud Couverture" />
+      <input type="checkbox" name="botcheck" style="display:none" />
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="f-prenom">Prénom *</label>
+          <input type="text" id="f-prenom" name="prenom" placeholder="Jean" required />
+        </div>
+        <div class="form-group">
+          <label for="f-nom">Nom *</label>
+          <input type="text" id="f-nom" name="nom" placeholder="Dupont" required />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="f-tel">Téléphone *</label>
+          <input type="tel" id="f-tel" name="telephone" placeholder="06 12 34 56 78" required />
+        </div>
+        <div class="form-group">
+          <label for="f-email">Email</label>
+          <input type="email" id="f-email" name="email" placeholder="jean.dupont@email.com" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="f-adresse">Adresse du chantier *</label>
+        <input type="text" id="f-adresse" name="adresse" placeholder="12 rue de Verdun, 11000 Carcassonne" required />
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="f-travaux">Type de prestation *</label>
+          <select id="f-travaux" name="type_prestation" required>
+            <option value="" disabled selected>Choisir...</option>
+            <option>Rénovation et Réparation Toiture</option>
+            <option>Pose de Toiture Neuve</option>
+            <option>Entretien et Démoussage</option>
+            <option>Peinture Intérieure</option>
+            <option>Peinture Extérieure</option>
+            <option>Travaux de zinguerie</option>
+            <option>Nettoyage et ravalement façade</option>
+            <option>Installation et remplacement de Velux</option>
+            <option>Peinture de toiture</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="f-couverture">Type de couverture</label>
+          <select id="f-couverture" name="type_bien">
+            <option value="" disabled selected>Choisir...</option>
+            <option>Tuile canal</option>
+            <option>Tuile romane</option>
+            <option>Tuile mécanique</option>
+            <option>Bac acier</option>
+            <option>Je ne sais pas</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="f-surface">Surface de toiture</label>
+          <select id="f-surface" name="ampleur">
+            <option value="" disabled selected>Choisir...</option>
+            <option>Moins de 50 m²</option>
+            <option>50 à 100 m²</option>
+            <option>100 à 200 m²</option>
+            <option>Plus de 200 m²</option>
+            <option>Je ne sais pas</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Délai souhaité</label>
+          <div class="form-urgence-row">
+            <label class="urgence-option" id="urgence-non">
+              <input type="radio" name="urgence" value="Travaux planifiés" checked />
+              <span class="urgence-dot"></span>
+              Travaux planifiés
+            </label>
+            <label class="urgence-option" id="urgence-oui">
+              <input type="radio" name="urgence" value="Urgence (fuite) — intervention rapide" />
+              <span class="urgence-dot"></span>
+              🚨 Urgence fuite
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="f-message">Description du projet</label>
+        <textarea id="f-message" name="message" placeholder="Décrivez votre projet, l'état actuel de la toiture, les travaux souhaités..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <div class="whatsapp-block">
+          <div class="whatsapp-block-text">
+            <strong>📷 Vous avez des photos de votre toiture ?</strong>
+            <span>Envoyez-les via WhatsApp — ça nous aide à préparer votre devis gratuitement.</span>
+          </div>
+          <a href="#" id="whatsappLink" class="whatsapp-btn" target="_blank" rel="noopener">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.122 1.523 5.854L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.371l-.36-.214-3.732.979.993-3.648-.234-.374A9.818 9.818 0 1112 21.818z"/></svg>
+            Envoyer via WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="form-submit-row">
+        <button type="submit" class="form-submit-btn" id="devisSubmitBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Envoyer ma demande de devis
+        </button>
+        <p class="form-mention">Réponse sous 24h · Devis 100% gratuit et sans engagement</p>
+      </div>
+    </form>
+
+    <div class="form-success" id="devisSuccess">
+      <div class="form-success-icon">✅</div>
+      <h3>Demande envoyée !</h3>
+      <p>Nous avons bien reçu votre demande de devis.<br>Horizon Sud Couverture vous recontacte sous 48h.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <span class="footer-brand" id="footerBrand"> </span>
+      <p class="footer-desc" id="footerDesc"> </p>
+    </div>
+    <div>
+      <span class="footer-col-label">Nos services</span>
+      <ul class="footer-links">
+        <li><a href="renovation-reparation-toiture.html">Rénovation et Réparation Toiture</a></li>
+        <li><a href="pose-toiture-neuve.html">Pose de Toiture Neuve</a></li>
+        <li><a href="entretien-demoussage.html">Entretien et Démoussage</a></li>
+        <li><a href="peinture-interieure.html">Peinture Intérieure</a></li>
+        <li><a href="peinture-exterieure.html">Peinture Extérieure</a></li>
+        <li><a href="zinguerie.html">Travaux de zinguerie</a></li>
+        <li><a href="nettoyage-ravalement-facade.html">Nettoyage et ravalement façade</a></li>
+        <li><a href="pose-velux.html">Installation et remplacement de Velux</a></li>
+        <li><a href="peinture-toiture.html">Peinture de toiture</a></li>
+      </ul>
+    </div>
+    <div>
+      <span class="footer-col-label">Le site</span>
+      <ul class="footer-links">
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#avis">Avis clients</a></li>
+        <li><a href="#galerie">Réalisations</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="zones-intervention.html">Zones d'intervention</a></li>
+        <li><a href="#devis">Devis gratuit</a></li>
+        <li id="horairesFooterLi" style="display:none"><a href="#horaires">Horaires</a></li>
+      </ul>
+    </div>
+    <div>
+      <span class="footer-col-label">Contact</span>
+      <span class="footer-contact-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span id="footerVille"> </span>
+      </span>
+      <a class="footer-contact-item phone-link" href="#">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 010 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        <span id="footerTel"> </span>
+      </a>
+      <span class="footer-contact-item" style="align-items:flex-start">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="margin-top:3px"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span>
+          Horaires
+          <span class="footer-horaires">
+            Lundi – Samedi : 8h00 – 18h30<br>Dimanche : fermé
+          </span>
+        </span>
+      </span>
+    </div>
+  </div>
+  <p class="footer-villes">Carcassonne · Trèbes · Limoux · Pennautier · Villemoustaussou · Pezens · Berriac · Cazilhac · Palaja · Montréal · Arzens · Leuc · Couffoulens · Conques-sur-Orbiel · Lavalette · Alairac</p>
+  <div class="footer-bottom">
+    <span>© <span id="footerAnnee"> </span> <span id="footerNom"> </span> — Couvreur dans l'Aude (11)</span>
+    <a href="zones-intervention.html">Zones d'intervention</a>
+    <a href="#devis">Devis gratuit</a>
+  </div>
+</footer>
+
+<script>
+  const GOOGLE_SVG = `<svg class="review-g" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>`;
+
+  const lbImages = [];
+  let lbIdx = 0;
+  let _leafletMap = null;
+  let _leafletMarker = null;
+
+  /* ── Lightbox ── */
+  function lbGoTo(idx) {
+    lbIdx = (idx + lbImages.length) % lbImages.length;
+    document.getElementById('lbImg').src = lbImages[lbIdx];
+    document.getElementById('lbCounter').textContent = (lbIdx + 1) + ' / ' + lbImages.length;
+    document.querySelectorAll('#lbDotsBar .lb-dot').forEach((d, i) => d.classList.toggle('active', i === lbIdx));
+  }
+  function lbNav(dir) { lbGoTo(lbIdx + dir); }
+  function openLb(src) {
+    const idx = lbImages.indexOf(src);
+    lbGoTo(idx >= 0 ? idx : 0);
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLb() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.getElementById('lbClose').addEventListener('click', closeLb);
+  document.getElementById('lbPrev').addEventListener('click', () => lbNav(-1));
+  document.getElementById('lbNext').addEventListener('click', () => lbNav(1));
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) closeLb();
+  });
+  document.addEventListener('keydown', e => {
+    if (!document.getElementById('lightbox').classList.contains('open')) return;
+    if (e.key === 'ArrowLeft')  lbNav(-1);
+    if (e.key === 'ArrowRight') lbNav(1);
+    if (e.key === 'Escape')     closeLb();
+  });
+
+  /* ── Carousel dots ── */
+  function initCarouselDots(gridId, dotsId) {
+    const grid = document.getElementById(gridId);
+    const dotsEl = document.getElementById(dotsId);
+    if (!grid || !dotsEl) return;
+    dotsEl.innerHTML = '';
+    const count = grid.children.length;
+    for (let i = 0; i < count; i++) {
+      const d = document.createElement('span');
+      d.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+      dotsEl.appendChild(d);
+    }
+    grid.addEventListener('scroll', () => {
+      const cardW = grid.firstElementChild ? grid.firstElementChild.offsetWidth : 0;
+      const gap = parseInt(getComputedStyle(grid).gap) || 16;
+      const idx = Math.round(grid.scrollLeft / (cardW + gap));
+      dotsEl.querySelectorAll('.carousel-dot').forEach((d, i) => d.classList.toggle('active', i === idx));
+    }, { passive: true });
+  }
+
+  /* ── Carousel arrows ── */
+  function initCarouselArrows(gridId, prevId, nextId) {
+    const grid = document.getElementById(gridId);
+    const prev = document.getElementById(prevId);
+    const next = document.getElementById(nextId);
+    if (!grid || !prev || !next) return;
+    function scrollCarousel(dir) {
+      const cardW = grid.firstElementChild ? grid.firstElementChild.offsetWidth : 300;
+      const gap = parseInt(getComputedStyle(grid).gap) || 16;
+      grid.scrollBy({ left: dir * (cardW + gap), behavior: 'smooth' });
+    }
+    prev.addEventListener('click', () => scrollCarousel(-1));
+    next.addEventListener('click', () => scrollCarousel(1));
+  }
+
+  /* ── FAQ ── */
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!open) item.classList.add('open');
+  }
+
+  /* ── Counter animation ── */
+  function countUp(el) {
+    const target = parseInt(el.dataset.target, 10);
+    const prefix = el.dataset.prefix || '';
+    const suffix = el.dataset.suffix || '';
+    const duration = 1400;
+    const start = performance.now();
+    function update(now) {
+      const elapsed = Math.min((now - start) / duration, 1);
+      const ease = 1 - Math.pow(1 - elapsed, 3);
+      el.textContent = prefix + Math.round(ease * target) + suffix;
+      if (elapsed < 1) requestAnimationFrame(update);
+    }
+    requestAnimationFrame(update);
+  }
+  const statsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.querySelectorAll('[data-target]').forEach(countUp);
+        statsObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  /* ── Nav hamburger ── */
+  const hamburger = document.getElementById('hamburger');
+  const navLinksEl = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => navLinksEl.classList.toggle('open'));
+  navLinksEl.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinksEl.classList.remove('open')));
+
+  /* ── Read more ── */
+  const readMoreBtn   = document.getElementById('readMoreBtn');
+  const aboutBodyWrap = document.getElementById('aboutBodyWrap');
+  const aboutBody     = document.getElementById('aboutBody');
+  if (readMoreBtn && aboutBodyWrap) {
+    readMoreBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      const expanded = aboutBodyWrap.classList.toggle('expanded');
+      aboutBody.classList.toggle('expanded', expanded);
+      readMoreBtn.textContent = expanded ? 'Réduire' : 'Lire la suite';
+    });
+  }
+
+  /* ── Apply content to DOM ── */
+  function applyContent(data) {
+    /* Le <title> optimisé SEO reste celui du HTML — on ne l'écrase plus ici. */
+
+    document.querySelectorAll('.phone-link').forEach(el => {
+      el.href = `tel:${data.telephone_tel}`;
+    });
+    /* Numéro affiché en clair (nav, boutons) */
+    document.querySelectorAll('.phone-text').forEach(el => {
+      el.textContent = data.telephone_affiche;
+    });
+
+    /* Titre de marque : 1er mot normal, le reste (« Couverture ») en couleur du site */
+    const brandHTML = (function(name) {
+      const parts = (name || '').trim().split(/\s+/);
+      if (parts.length < 2) return name;
+      /* 4 mots et plus : on coupe au milieu, sinon après le 1er mot */
+      const coupe = parts.length >= 3 ? 2 : 1;
+      return parts.slice(0, coupe).join(' ') +
+        ' <span class="brand-accent">' + parts.slice(coupe).join(' ') + '</span>';
+    })(data.nom_entreprise);
+    document.getElementById('navLogo').innerHTML = brandHTML;
+
+    const heroEl = document.getElementById('hero');
+    heroEl.style.backgroundImage = `url('${data.hero.image}')`;
+    heroEl.style.backgroundPosition = 'center';
+    heroEl.style.backgroundSize = 'cover';
+    document.getElementById('heroEyebrow').textContent = `${data.type_artisan} · ${data.ville}`;
+    document.getElementById('heroTitle').textContent = data.hero.titre;
+    document.getElementById('heroDesc').textContent = data.hero.description;
+
+    document.getElementById('aboutTitle').innerHTML = brandHTML;
+    const aboutBodyEl = document.getElementById('aboutBody');
+    aboutBodyEl.innerHTML = (data.apropos.texte || '').split('\n\n').map(p => `<p>${p}</p>`).join('');
+    const aboutImg = document.getElementById('aboutImg');
+    aboutImg.src = data.apropos.image;
+    aboutImg.alt = `${data.nom_entreprise} – artisan ${data.type_artisan}`;
+
+    document.getElementById('aboutBadges').innerHTML = data.apropos.badges.map(b =>
+      `<span class="badge"><span class="badge-check">✓</span> ${b}</span>`
+    ).join('');
+
+    document.getElementById('statsInner').innerHTML = data.stats.map((s, i) =>
+      (i > 0 ? '<div class="stats-divider"></div>' : '') +
+      `<div class="stat-block">
+        <div class="stat-val" data-target="${s.valeur}" data-prefix="${i > 0 ? '+' : ''}">0</div>
+        <div class="stat-lbl">${s.label}</div>
+      </div>`
+    ).join('');
+    const statsSection = document.getElementById('stats');
+    if (statsSection) {
+      statsObserver.unobserve(statsSection);
+      if (window.parent !== window) {
+        // Mode aperçu admin : afficher les valeurs directement sans animation
+        statsSection.querySelectorAll('[data-target]').forEach(el => {
+          const prefix = el.dataset.prefix || '';
+          el.textContent = prefix + el.dataset.target;
+        });
+      } else {
+        statsObserver.observe(statsSection);
+      }
+    }
+
+    /* Chaque service peut pointer vers sa page dédiée (champ « page » du CMS) */
+    document.getElementById('servicesGrid').innerHTML = data.services.map(s => {
+      const inner =
+        `<img src="${s.image}" alt="${s.titre} — ${data.nom_entreprise}, ${data.type_artisan.toLowerCase()} à ${data.ville}" loading="lazy" />
+        <div class="service-body">
+          <h3>${s.titre}</h3>
+          <p>${s.description}</p>
+          ${s.page ? `<span class="service-more">En savoir plus <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>` : ''}
+        </div>`;
+      return s.page
+        ? `<a class="service-card" href="${s.page}">${inner}</a>`
+        : `<div class="service-card">${inner}</div>`;
+    }).join('');
+
+    document.getElementById('googleScore').textContent = `${data.avis.google_score} — ${data.avis.nb_avis}`;
+    document.getElementById('reviewsGrid').innerHTML = data.avis.temoignages.map(t =>
+      `<div class="review-card">
+        ${GOOGLE_SVG}
+        <div class="review-top">
+          <div class="review-avatar">${t.initiale}</div>
+          <div>
+            <div class="review-name">${t.nom}</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+        </div>
+        <p class="review-text">${t.texte}</p>
+      </div>`
+    ).join('');
+
+    /* ── Avis section visibility ── */
+    const avisSec = document.getElementById('avis');
+    const avisVisible = !(data.avis && data.avis.visible === false);
+    if (avisSec) avisSec.style.display = avisVisible ? '' : 'none';
+    const avisNavLink = document.querySelector('a[href="#avis"]');
+    if (avisNavLink) avisNavLink.closest('li').style.display = avisVisible ? '' : 'none';
+    const avisFooterLink = document.querySelector('.footer-links a[href="#avis"]');
+    if (avisFooterLink) avisFooterLink.closest('li').style.display = avisVisible ? '' : 'none';
+
+    const galleryGrid = document.getElementById('galleryGrid');
+    const lbDotsBar   = document.getElementById('lbDotsBar');
+    galleryGrid.innerHTML = '';
+    lbDotsBar.innerHTML   = '';
+    lbImages.length = 0;
+
+    data.galerie.forEach((item, i) => {
+      const legende = item.legende || `Réalisation ${i + 1}`;
+      if (item.avant && item.apres) {
+        /* Comparateur avant / après (curseur glissant) */
+        const wrap = document.createElement('div');
+        wrap.className = 'gallery-item ba-item';
+        wrap.innerHTML =
+          `<div class="ba-slider" style="--pos:50%">
+             <img class="ba-after" src="${item.apres}" alt="Après — ${legende}" loading="lazy"/>
+             <img class="ba-before" src="${item.avant}" alt="Avant — ${legende}" loading="lazy"/>
+             <span class="ba-label ba-label-before">Avant</span>
+             <span class="ba-label ba-label-after">Après</span>
+             <div class="ba-line"><div class="ba-handle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 3 12 9 18"/><polyline points="15 6 21 12 15 18"/></svg></div></div>
+           </div>
+           <div class="ba-legend">${legende}</div>`;
+        galleryGrid.appendChild(wrap);
+      } else if (item.image) {
+        /* Photo simple avec lightbox */
+        lbImages.push(item.image);
+        const div = document.createElement('div');
+        div.className = 'gallery-item';
+        div.innerHTML = `<img src="${item.image}" alt="${legende}" loading="lazy"/>`;
+        div.addEventListener('click', () => openLb(item.image));
+        galleryGrid.appendChild(div);
+        const d = document.createElement('span');
+        d.className = 'lb-dot' + (lbImages.length === 1 ? ' active' : '');
+        d.addEventListener('click', () => lbGoTo(lbImages.length - 1));
+        lbDotsBar.appendChild(d);
+      }
+    });
+    initBeforeAfter();
+
+    document.getElementById('faqList').innerHTML = data.faq.map(q =>
+      `<li class="faq-item">
+        <button class="faq-btn" onclick="toggleFaq(this)">
+          ${q.question}
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>${q.reponse}</p></div>
+      </li>`
+    ).join('');
+
+    const waLink = document.getElementById('whatsappLink');
+    if (waLink && data.telephone_tel) {
+      const num = data.telephone_tel.replace(/\D/g, '');
+      const msg = encodeURIComponent('Bonjour, je souhaite vous envoyer des photos de ma toiture pour obtenir un devis gratuit.');
+      waLink.href = 'https://wa.me/' + num + '?text=' + msg;
+    }
+
+    document.getElementById('footerBrand').textContent = data.nom_entreprise;
+    document.getElementById('footerDesc').textContent  = data.footer_description;
+    document.getElementById('footerVille').textContent = data.ville;
+    document.getElementById('footerTel').textContent   = data.telephone_affiche;
+    document.getElementById('footerAnnee').textContent = data.annee;
+    document.getElementById('footerNom').textContent   = data.nom_entreprise;
+
+    /* ── Design : palette + nav + stats ── */
+    const PALETTES = {
+      noir:'#0a0a0a', bleu:'#1e6ba3', vert:'#065f46',
+      orange:'#9a3412', bordeaux:'#881337', ardoise:'#334155',
+      violet:'#5b21b6', brun:'#78350f'
+    };
+    const design = data.design || {};
+    const primary = PALETTES[design.palette] || '#0a0a0a';
+    document.documentElement.style.setProperty('--primary', primary);
+
+    /* Theming dérivé : --text, --muted, --border, --surface, --footer-bg */
+    function hexToRgb(h) { return [parseInt(h.slice(1,3),16), parseInt(h.slice(3,5),16), parseInt(h.slice(5,7),16)]; }
+    const isNoir = (primary === '#0a0a0a');
+    if (isNoir) {
+      document.documentElement.style.setProperty('--text',      '#0a0a0a');
+      document.documentElement.style.setProperty('--muted',     'rgba(10,10,10,0.60)');
+      document.documentElement.style.setProperty('--border',    'rgba(10,10,10,0.08)');
+      document.documentElement.style.setProperty('--surface',   'rgba(10,10,10,0.04)');
+      document.documentElement.style.setProperty('--footer-bg', '#0a0a0a');
+    } else {
+      var pc = hexToRgb(primary), r = pc[0], g = pc[1], b = pc[2];
+      var dr = Math.round(r*0.55), dg = Math.round(g*0.53), db = Math.round(b*0.57);
+      var fr = Math.round(r*0.5),  fg = Math.round(g*0.5),  fb = Math.round(b*0.52);
+      document.documentElement.style.setProperty('--text',      'rgb('+dr+','+dg+','+db+')');
+      document.documentElement.style.setProperty('--muted',     'rgba(10,10,10,0.58)');
+      document.documentElement.style.setProperty('--border',    'rgba('+r+','+g+','+b+',0.12)');
+      document.documentElement.style.setProperty('--surface',   'rgba('+r+','+g+','+b+',0.06)');
+      document.documentElement.style.setProperty('--footer-bg', 'rgb('+fr+','+fg+','+fb+')');
+    }
+
+    const navEl = document.querySelector('nav');
+    navEl.classList.remove('nav-transparent', 'nav-flottant');
+    if (design.nav_style === 'transparent') navEl.classList.add('nav-transparent');
+    else if (design.nav_style === 'flottant') navEl.classList.add('nav-flottant');
+    /* Remettre le bon état scrolled après changement de variante */
+    if (design.nav_style === 'transparent') {
+      navEl.classList.toggle('scrolled', window.scrollY > 50);
+    }
+
+    const statsSec = document.getElementById('stats');
+    statsSec.classList.remove('stats-classique', 'stats-minimal');
+    if (design.stats_style === 'classique') statsSec.classList.add('stats-classique');
+    else if (design.stats_style === 'minimal') statsSec.classList.add('stats-minimal');
+
+    /* ── Horaires ── */
+    const horSec = document.getElementById('horaires');
+    const horNavLi = document.getElementById('horairesNavLi');
+    const horFooterLi = document.getElementById('horairesFooterLi');
+    const horaires = data.horaires;
+    const horVisible = horaires && horaires.visible === true;
+    if (horNavLi) horNavLi.style.display = horVisible ? '' : 'none';
+    if (horFooterLi) horFooterLi.style.display = horVisible ? '' : 'none';
+    if (horSec) {
+      horSec.style.display = horVisible ? '' : 'none';
+      if (horVisible && horaires.jours) {
+        if (horaires.adresse) {
+          var adresseEl = document.getElementById('horaireAdresse');
+          if (adresseEl) adresseEl.textContent = '📍 ' + horaires.adresse;
+        }
+        var CLOCK = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>';
+        document.getElementById('horairesTable').innerHTML = horaires.jours.map(function(j) {
+          if (j.ferme) return '<div class="horaire-row ferme"><span class="horaire-jour">' + CLOCK + ' ' + j.nom + '</span><span class="horaire-heures">Fermé</span></div>';
+          var h;
+          if (j.texte) {
+            h = j.texte;
+          } else if (j.am_active === false || !j.am_debut || !j.am_fin) {
+            h = j.matin_debut.replace(':','h') + ' - ' + j.matin_fin.replace(':','h');
+          } else {
+            h = j.matin_debut.replace(':','h') + ' - ' + j.matin_fin.replace(':','h') + ' / ' + j.am_debut.replace(':','h') + ' - ' + j.am_fin.replace(':','h');
+          }
+          return '<div class="horaire-row"><span class="horaire-jour">' + CLOCK + ' ' + j.nom + '</span><span class="horaire-heures">' + h + '</span></div>';
+        }).join('');
+
+        /* Initialise ou met à jour la carte Leaflet.
+           Leaflet (46 ko) n'est téléchargé qu'ici, c.-à-d. uniquement si la
+           section Horaires est activée dans l'admin ET qu'elle a des coordonnées. */
+        if (horaires.lat && horaires.lng) {
+          loadLeaflet(function () { renderMap(horaires, data); });
+        }
+      }
+    }
+
+    initCarouselDots('servicesGrid', 'servicesDots');
+    initCarouselDots('galleryGrid',  'galleryDots');
+    initCarouselArrows('servicesGrid', 'servicesPrev', 'servicesNext');
+
+    document.querySelectorAll('.fade-up').forEach(el => {
+      requestAnimationFrame(() => el.classList.add('visible'));
+    });
+
+    /* Signal to parent admin that preview is ready */
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: 'PREVIEW_READY' }, '*');
+    }
+  }
+
+  /* ── Leaflet : chargement à la demande ── */
+  let _leafletLoading = null;
+  function loadLeaflet(cb) {
+    if (typeof L !== 'undefined') { cb(); return; }
+    if (_leafletLoading) { _leafletLoading.push(cb); return; }
+    _leafletLoading = [cb];
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    document.head.appendChild(css);
+    const js = document.createElement('script');
+    js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    js.onload = function () {
+      const q = _leafletLoading; _leafletLoading = null;
+      q.forEach(function (f) { try { f(); } catch (e) { console.error(e); } });
+    };
+    js.onerror = function () { _leafletLoading = null; console.warn('Leaflet indisponible'); };
+    document.head.appendChild(js);
+  }
+
+  function renderMap(horaires, data) {
+    if (typeof L === 'undefined') return;
+    var mapDiv = document.getElementById('horaireMap');
+    if (!mapDiv) return;
+    /* Si la carte existe mais que les coordonnées ont changé → on la détruit */
+    if (_leafletMap && (_leafletMap._lastLat !== horaires.lat || _leafletMap._lastLng !== horaires.lng)) {
+      try { _leafletMap.remove(); } catch(e) {}
+      _leafletMap = null;
+      _leafletMarker = null;
+    }
+    /* Crée la carte si elle n'existe pas encore */
+    if (!_leafletMap && !mapDiv._leaflet_id) {
+      _leafletMap = L.map('horaireMap', { attributionControl: false }).setView([horaires.lat, horaires.lng], 14);
+      _leafletMap._lastLat = horaires.lat;
+      _leafletMap._lastLng = horaires.lng;
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(_leafletMap);
+      _leafletMarker = L.marker([horaires.lat, horaires.lng]).addTo(_leafletMap)
+        .bindPopup('<b>' + (data.nom_entreprise || '') + '</b><br>' + (horaires.adresse || ''))
+        .openPopup();
+    }
+  }
+
+  /* ── Data loading ── */
+  async function loadContent() {
+    /* If inside admin iframe, wait for postMessage — don't fetch */
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: 'PREVIEW_READY' }, '*');
+      return;
+    }
+    /* Aperçu live depuis l'admin (localStorage, valide 10 min) */
+    try {
+      const raw = localStorage.getItem('cms_live_preview');
+      if (raw) {
+        const { data, ts } = JSON.parse(raw);
+        if (Date.now() - ts < 10 * 60 * 1000) { applyContent(data); return; }
+      }
+    } catch(_) {}
+    const data = await fetch('data/content.json').then(r => r.json());
+    applyContent(data);
+  }
+
+  /* ── Transparent nav : scroll handler ── */
+  window.addEventListener('scroll', function() {
+    const n = document.querySelector('nav');
+    if (n && n.classList.contains('nav-transparent')) {
+      n.classList.toggle('scrolled', window.scrollY > 50);
+    }
+  }, { passive: true });
+
+  /* ── Ancre d'arrivée (#devis, #faq…) ──
+     Le contenu de la page est injecté par JS après le chargement : quand on
+     arrive depuis une autre page avec une ancre, le navigateur a déjà sauté
+     alors que la page n'avait pas sa hauteur définitive, et on atterrit au
+     mauvais endroit. On repositionne donc une fois le contenu en place, puis
+     à nouveau quand les images ont fini de charger. */
+  let _ancreAbandon = false;
+  function recalerAncre() {
+    if (_ancreAbandon || !location.hash) return;
+    let cible;
+    try { cible = document.querySelector(location.hash); } catch (_) { return; }
+    if (!cible) return;
+    const y = cible.getBoundingClientRect().top + window.scrollY - 76; /* hauteur de la barre fixe */
+    window.scrollTo({ top: Math.max(0, y), behavior: 'auto' });
+  }
+
+  function suivreAncre() {
+    if (!location.hash) return;
+    /* Dès que le visiteur agit lui-même, on cesse de le repositionner */
+    ['wheel', 'touchstart', 'keydown'].forEach(function (ev) {
+      window.addEventListener(ev, function () { _ancreAbandon = true; }, { once: true, passive: true });
+    });
+    recalerAncre();
+    /* La hauteur de la page bouge encore : contenu injecté, images en lazy,
+       polices. On recale tant qu'elle change, pendant 2 s maximum. */
+    let derniereHauteur = document.documentElement.scrollHeight;
+    const fin = Date.now() + 2000;
+    const t = setInterval(function () {
+      const h = document.documentElement.scrollHeight;
+      if (h !== derniereHauteur) { derniereHauteur = h; recalerAncre(); }
+      if (Date.now() > fin || _ancreAbandon) clearInterval(t);
+    }, 100);
+    window.addEventListener('load', function () { setTimeout(recalerAncre, 50); }, { once: true });
+  }
+
+  loadContent()
+    .then(function () { requestAnimationFrame(suivreAncre); })
+    .catch(err => console.error('Erreur chargement contenu :', err));
+
+  /* ── Before / after sliders ── */
+  function initBeforeAfter() {
+    document.querySelectorAll('.ba-slider').forEach(function(slider) {
+      if (slider.dataset.baInit) return;
+      slider.dataset.baInit = '1';
+      let dragging = false;
+      function setPos(clientX) {
+        const rect = slider.getBoundingClientRect();
+        let pct = ((clientX - rect.left) / rect.width) * 100;
+        pct = Math.max(0, Math.min(100, pct));
+        slider.style.setProperty('--pos', pct + '%');
+      }
+      function down(e) { dragging = true; setPos(e.touches ? e.touches[0].clientX : e.clientX); e.preventDefault(); }
+      function move(e) { if (!dragging) return; setPos(e.touches ? e.touches[0].clientX : e.clientX); }
+      function up() { dragging = false; }
+      slider.addEventListener('mousedown', down);
+      slider.addEventListener('touchstart', down, { passive: false });
+      window.addEventListener('mousemove', move);
+      window.addEventListener('touchmove', move, { passive: false });
+      window.addEventListener('mouseup', up);
+      window.addEventListener('touchend', up);
+    });
+  }
+
+  /* ── Devis form ── */
+  (function() {
+    document.querySelectorAll('.urgence-option').forEach(function(label) {
+      const radio = label.querySelector('input[type="radio"]');
+      if (radio && radio.checked) label.classList.add('selected');
+      radio && radio.addEventListener('change', function() {
+        document.querySelectorAll('.urgence-option').forEach(l => l.classList.remove('selected'));
+        label.classList.add('selected');
+      });
+    });
+    const form = document.getElementById('devisForm');
+    const btn  = document.getElementById('devisSubmitBtn');
+    if (form) {
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        btn.disabled = true;
+        btn.textContent = 'Envoi en cours…';
+        try {
+          const data = new FormData(form);
+          const res  = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: data });
+          const json = await res.json();
+          if (json.success) {
+            form.style.display = 'none';
+            document.getElementById('devisSuccess').style.display = 'block';
+          } else { throw new Error(json.message || 'Erreur'); }
+        } catch(err) {
+          btn.disabled = false;
+          btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Envoyer ma demande de devis';
+          alert('Une erreur est survenue. Veuillez réessayer ou nous appeler directement.');
+        }
+      });
+    }
+  })();
+
+  /* ── Listen for admin preview data ── */
+  window.addEventListener('message', function(e) {
+    if (e.data && e.data.type === 'ADMIN_PREVIEW' && e.data.content) {
+      applyContent(e.data.content);
+    }
+  });
+
+</script>
+</body>
+</html>
