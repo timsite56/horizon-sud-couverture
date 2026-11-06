@@ -44,11 +44,12 @@
     root.setProperty('--primary', primary);
 
     if (nom === 'horizon') {
-      root.setProperty('--text', '#13212f');
-      root.setProperty('--muted', 'rgba(19,33,47,0.64)');
-      root.setProperty('--border', 'rgba(19,33,47,0.10)');
-      root.setProperty('--surface', 'rgba(220,86,5,0.06)');
-      root.setProperty('--footer-bg', '#0c1826');
+      root.setProperty('--bg', '#0b1522');
+      root.setProperty('--text', '#eef2f7');
+      root.setProperty('--muted', 'rgba(226,233,242,0.72)');
+      root.setProperty('--border', 'rgba(255,255,255,0.10)');
+      root.setProperty('--surface', 'rgba(255,255,255,0.04)');
+      root.setProperty('--footer-bg', '#070d16');
     } else if (nom === 'rouge') {
       /* rouge vif en accent, texte anthracite — jamais de texte rouge foncé */
       root.setProperty('--text', '#2b3038');
@@ -86,7 +87,7 @@
     }
 
     var theme = document.querySelector('meta[name="theme-color"]');
-    if (theme) theme.setAttribute('content', primary);
+    if (theme) theme.setAttribute('content', nom === 'horizon' ? '#0b1522' : primary);
   }
 
   fetch('data/content.json', { cache: 'no-cache' })

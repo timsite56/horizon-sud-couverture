@@ -345,7 +345,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="favicon.ico" sizes="32x32" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-  <meta name="theme-color" content="#dc5605" />
+  <meta name="theme-color" content="#0b1522" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -1157,6 +1157,53 @@
 /* chiffres sur le bleu nuit du logo, l'orange reste pour les boutons */
 #stats.stats-classique { background: #0c1826; }
 </style>
+<style id="hs-sombre">
+/* fond sombre « bleu nuit du logo » (06/11) — deux nuances qui alternent, cartes un cran plus clair */
+:root { color-scheme: dark; --accent: #f07a2a; --carte: #14253b; }
+body { background: #0b1522; color: #eef2f7; }
+nav, nav.nav-transparent.scrolled { background: #0b1522 !important; border-bottom-color: rgba(255,255,255,0.08) !important; box-shadow: 0 1px 14px rgba(0,0,0,0.35) !important; }
+nav.nav-transparent:not(.scrolled) { background: transparent !important; border-bottom-color: transparent !important; box-shadow: none !important; }
+.nav-links a:hover, .nav-links a[aria-current="page"], nav.nav-transparent.scrolled .nav-links a:hover { color: #eef2f7; background: rgba(255,255,255,0.08); }
+.nav-links.open, nav.nav-transparent .nav-links.open { background: #0f1c2e !important; box-shadow: 0 10px 24px rgba(0,0,0,0.45) !important; border-bottom-color: rgba(255,255,255,0.08) !important; }
+.nav-links.open a, nav.nav-transparent .nav-links.open a { color: rgba(226,233,242,0.72) !important; }
+.trust-ico, .ville-chip { background: #14253b; border-color: rgba(255,255,255,0.12); }
+.trust-ico, .ville-chip svg { color: #f07a2a; }
+.ville-chip:hover { border-color: #f07a2a; color: #f07a2a; }
+.label, .faq-btn svg { color: #f07a2a; stroke: #f07a2a; }
+.faq-btn { color: #eef2f7; }
+.title-underline { background: var(--primary); }
+
+#apropos, #services, #avis, #galerie, #devis { background: #0b1522; }
+#zones, #videos, #faq { background: #0f1c2e; }
+#stats.stats-classique { background: linear-gradient(135deg, #13263e, #0f1c2e); border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
+#stats .stat-val { color: #f07a2a; }
+#stats .stat-lbl { color: rgba(226,233,242,0.62); }
+.badge { background: rgba(255,255,255,0.07); color: #eef2f7; }
+#readMoreBtn, .btn-link, .service-more, .service-body h3 { color: #f07a2a; }
+.service-card { background: #14253b; border-color: rgba(255,255,255,0.08); }
+.service-card:hover { box-shadow: 0 14px 36px rgba(0,0,0,0.45); border-color: rgba(240,122,42,0.45); }
+.review-card { background: #14253b; border-color: rgba(255,255,255,0.08); }
+.review-avatar { background: rgba(255,255,255,0.08); color: #eef2f7; border-color: rgba(255,255,255,0.12); }
+.gallery-item { background: #14253b; }
+.vd-card { border: 1px solid rgba(255,255,255,0.08); }
+.faq-item { background: transparent; }
+.faq-item.open { background: #14253b; border-color: rgba(240,122,42,0.35); }
+.contact-label { color: rgba(226,233,242,0.72); }
+.devis-form { background: #14253b; border-color: rgba(255,255,255,0.10); box-shadow: 0 12px 40px rgba(0,0,0,0.40); }
+.form-group input, .form-group select, .form-group textarea { background-color: #0b1522; border-color: rgba(255,255,255,0.16); color: #eef2f7; }
+.form-group input::placeholder, .form-group textarea::placeholder { color: rgba(226,233,242,0.42); }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #f07a2a; box-shadow: 0 0 0 3px rgba(240,122,42,0.22); }
+.form-group select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c3ccd8' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.form-group select option { background: #0b1522; color: #eef2f7; }
+.urgence-option { border-color: rgba(255,255,255,0.16); }
+.urgence-option.selected, .urgence-option:has(input:checked) { border-color: #f07a2a; color: #f07a2a; background: rgba(240,122,42,0.10); }
+.whatsapp-block { background: rgba(37,211,102,0.08); border-color: rgba(37,211,102,0.35); }
+.whatsapp-block-text strong { color: #4ade80; }
+.carousel-dot { background: rgba(255,255,255,0.25); }
+.carousel-dot.active { background: #f07a2a; }
+#mapContainer { box-shadow: 0 8px 28px rgba(0,0,0,0.45); }
+footer { border-top: 1px solid rgba(255,255,255,0.06); }
+</style>
 </head>
 <body>
 
@@ -1909,11 +1956,12 @@
     function hexToRgb(h) { return [parseInt(h.slice(1,3),16), parseInt(h.slice(3,5),16), parseInt(h.slice(5,7),16)]; }
     const isNoir = (primary === '#0a0a0a');
     if (design.palette === 'horizon') {
-      document.documentElement.style.setProperty('--text',      '#13212f');
-      document.documentElement.style.setProperty('--muted',     'rgba(19,33,47,0.64)');
-      document.documentElement.style.setProperty('--border',    'rgba(19,33,47,0.10)');
-      document.documentElement.style.setProperty('--surface',   'rgba(220,86,5,0.06)');
-      document.documentElement.style.setProperty('--footer-bg', '#0c1826');
+      document.documentElement.style.setProperty('--bg',        '#0b1522');
+      document.documentElement.style.setProperty('--text',      '#eef2f7');
+      document.documentElement.style.setProperty('--muted',     'rgba(226,233,242,0.72)');
+      document.documentElement.style.setProperty('--border',    'rgba(255,255,255,0.10)');
+      document.documentElement.style.setProperty('--surface',   'rgba(255,255,255,0.04)');
+      document.documentElement.style.setProperty('--footer-bg', '#070d16');
     } else if (isNoir) {
       document.documentElement.style.setProperty('--text',      '#0a0a0a');
       document.documentElement.style.setProperty('--muted',     'rgba(10,10,10,0.60)');

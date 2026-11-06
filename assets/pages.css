@@ -321,3 +321,32 @@ footer { background: var(--footer-bg); padding: 3.5rem 11% 2rem; }
 
 .nav-logo-img { height: 54px; width: auto; display: block; }
 @media (max-width: 600px) { .nav-logo-img { height: 44px; } }
+
+/* ─── FOND SOMBRE « bleu nuit du logo » (06/11) ─────── */
+:root { color-scheme: dark; --accent: #f07a2a; --carte: #14253b; }
+body { background: #0b1522; color: #eef2f7; }
+nav, nav.nav-transparent.scrolled { background: #0b1522 !important; border-bottom-color: rgba(255,255,255,0.08) !important; box-shadow: 0 1px 14px rgba(0,0,0,0.35) !important; }
+nav.nav-transparent:not(.scrolled) { background: transparent !important; border-bottom-color: transparent !important; box-shadow: none !important; }
+.nav-links a:hover, .nav-links a[aria-current="page"], nav.nav-transparent.scrolled .nav-links a:hover { color: #eef2f7; background: rgba(255,255,255,0.08); }
+.nav-links.open, nav.nav-transparent .nav-links.open { background: #0f1c2e !important; box-shadow: 0 10px 24px rgba(0,0,0,0.45) !important; border-bottom-color: rgba(255,255,255,0.08) !important; }
+.nav-links.open a, nav.nav-transparent .nav-links.open a { color: rgba(226,233,242,0.72) !important; }
+.trust-ico, .ville-chip { background: #14253b; border-color: rgba(255,255,255,0.12); }
+.trust-ico, .ville-chip svg { color: #f07a2a; }
+.ville-chip:hover { border-color: #f07a2a; color: #f07a2a; }
+.label, .faq-btn svg { color: #f07a2a; stroke: #f07a2a; }
+.faq-btn { color: #eef2f7; }
+.title-underline { background: var(--primary); }
+
+section { background: #0b1522; }
+section.alt, .trust-band { background: #0f1c2e; }
+.breadcrumb { background: #0f1c2e !important; box-shadow: none !important; border-bottom: none !important; }  /* c'est aussi un <nav> */
+.sub-links { background: #14253b; border-color: rgba(255,255,255,0.10); box-shadow: 0 14px 34px rgba(0,0,0,0.5); }
+.card { background: #14253b; border-color: rgba(255,255,255,0.08); }
+.card:hover { box-shadow: 0 14px 36px rgba(0,0,0,0.45); border-color: rgba(240,122,42,0.45); }
+.card-icon { background: rgba(255,255,255,0.06); color: #f07a2a; }
+.card-link .more, .prose a, .breadcrumb a:hover, .btn-outline { color: #f07a2a; }
+.btn-outline { border-color: rgba(255,255,255,0.22); }
+.step { border-left-color: rgba(255,255,255,0.14); }
+footer { border-top: 1px solid rgba(255,255,255,0.06); }
+@media (max-width: 960px) { .sub-links { background: transparent; box-shadow: none; } }
+/* ─── fin fond sombre ─── */
