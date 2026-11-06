@@ -21,6 +21,7 @@
     "badges": [
       "Couvreur de l'Aude",
       "Spécialiste tuile canal",
+      "Inspection par drone",
       "Garantie décennale",
       "Devis gratuit"
     ]
@@ -239,6 +240,10 @@
     {
       "question": "Quels sont vos horaires ?",
       "reponse": "Nous sommes joignables du lundi au samedi de 8h à 18h30, au 06 58 15 51 95. En cas de fuite ou de tuiles déplacées après un coup de vent, appelez-nous : nous posons une protection provisoire en priorité."
+    },
+    {
+      "question": "Faites-vous une inspection de toiture par drone ?",
+      "reponse": "Oui. Avant le devis, nous inspectons votre toiture par drone pour voir son état réel sans monter dessus. Pendant le chantier, vous recevez des photos et des vidéos des travaux avant, pendant et après, pour suivre l'avancement même à distance."
     },
     {
       "question": "Travaillez-vous la tuile canal des maisons anciennes ?",

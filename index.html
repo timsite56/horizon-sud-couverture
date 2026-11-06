@@ -289,6 +289,11 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "Faites-vous une inspection de toiture par drone ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui. Avant le devis, nous inspectons votre toiture par drone pour voir son état réel sans monter dessus. Pendant le chantier, vous recevez des photos et des vidéos des travaux avant, pendant et après, pour suivre l'avancement même à distance." }
+    },
+    {
+      "@type": "Question",
       "name": "Quels sont vos horaires ?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -1204,6 +1209,26 @@ nav.nav-transparent:not(.scrolled) { background: transparent !important; border-
 #mapContainer { box-shadow: 0 8px 28px rgba(0,0,0,0.45); }
 footer { border-top: 1px solid rgba(255,255,255,0.06); }
 </style>
+<style id="dr-css">
+#drone { background: #0f1c2e; }
+#zones { background: #0b1522; } #avis { background: #0f1c2e; } #videos { background: #0b1522; }
+#galerie { background: #0f1c2e; } #faq { background: #0b1522; } #devis { background: #0f1c2e; }
+.dr-head { max-width: 720px; margin-bottom: 2.6rem; }
+.dr-lead { color: var(--muted); font-size: .97rem; line-height: 1.7; }
+.dr-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.1rem; }
+.dr-card { flex: 0 0 calc((100% - 2.2rem) / 3); background: #14253b; border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px; padding: 1.5rem 1.4rem 1.6rem; position: relative; }
+.dr-card:first-child { border-color: rgba(240,122,42,.45); background: linear-gradient(160deg, #1a2f4a, #14253b); }
+.dr-ico { width: 46px; height: 46px; border-radius: 12px; background: rgba(240,122,42,.12); color: #f07a2a;
+  display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; }
+.dr-tag { display: inline-block; font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  color: #f07a2a; margin-bottom: .35rem; }
+.dr-card h3 { font-size: 1.02rem; font-weight: 700; margin-bottom: .5rem; color: var(--text); }
+.dr-card p { color: var(--muted); font-size: .88rem; line-height: 1.65; }
+.dr-cta { text-align: center; margin-top: 2.2rem; }
+@media (max-width: 960px) { .dr-card { flex-basis: calc((100% - 1.1rem) / 2); } }
+@media (max-width: 600px) { .dr-card { flex-basis: 100%; } .dr-cta .btn { width: 100%; justify-content: center; } }
+</style>
 </head>
 <body>
 
@@ -1339,6 +1364,28 @@ footer { border-top: 1px solid rgba(255,255,255,0.06); }
 </section>
 
 <!-- ZONES D'INTERVENTION -->
+<section id="drone">
+  <div class="dr-head">
+    <span class="label">Suivi de chantier</span>
+    <h2 class="section-title">Votre toiture vue du ciel, avant, pendant et après</h2>
+    <span class="title-underline"></span>
+    <p class="dr-lead">Nous inspectons votre toit par drone et nous vous montrons chaque étape du chantier en photos et en vidéos. Vous savez à tout moment où en sont vos travaux.</p>
+  </div>
+  <div class="dr-grid">
+    <div class="dr-card"><div class="dr-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 10h6v4H9z"/><path d="M9 10 6 7M15 10l3-3M9 14l-3 3M15 14l3 3"/><circle cx="5" cy="6" r="2.2"/><circle cx="19" cy="6" r="2.2"/><circle cx="5" cy="18" r="2.2"/><circle cx="19" cy="18" r="2.2"/></svg></div>
+      <span class="dr-tag">Avant le devis</span><h3>Inspection par drone</h3><p>Le drone survole votre toiture : tuiles cassées ou déplacées, faîtage, cheminée, gouttières. Vous voyez l'état réel du toit, sans que personne ne marche dessus.</p></div>
+    <div class="dr-card"><div class="dr-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+      <span class="dr-tag">Avant</span><h3>Photos avant travaux</h3><p>L'état de départ est photographié : vous savez exactement ce qui va être refait, et pourquoi.</p></div>
+    <div class="dr-card"><div class="dr-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 12-8.5 8.5a2.1 2.1 0 0 1-3-3L12 9"/><path d="M17.6 15 22 10.6M20.9 11.7l-1.3-1.3a2 2 0 0 1 0-2.8l.4-.4-4.2-4.2a5 5 0 0 0-7 0L13 6.8a2 2 0 0 1 0 2.8l1.3 1.3"/></svg></div>
+      <span class="dr-tag">Pendant</span><h3>Photos pendant le chantier</h3><p>Chaque étape importante est prise en photo : dépose, charpente, liteaux, pose des tuiles, zinguerie.</p></div>
+    <div class="dr-card"><div class="dr-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="m22 4-10 10-3-3"/></svg></div>
+      <span class="dr-tag">Après</span><h3>Photos après travaux</h3><p>En fin de chantier, un nouveau survol montre le résultat, vue d'ensemble comprise. Vous comparez avant et après.</p></div>
+    <div class="dr-card"><div class="dr-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/><path d="M9.5 8.5a3.5 3.5 0 0 1 5 0M8 6.5a6 6 0 0 1 8 0"/></svg></div>
+      <span class="dr-tag">En temps réel</span><h3>Suivi de votre chantier à distance</h3><p>Photos et vidéos vous sont envoyées au fil des travaux : vous suivez l'avancement même si vous n'êtes pas sur place.</p></div>
+  </div>
+  <div class="dr-cta"><a href="#devis" class="btn btn-dark">Demander une inspection par drone</a></div>
+</section>
+
 <section id="zones">
   <div class="zones-inner">
     <span class="label">Zones d'intervention</span>
