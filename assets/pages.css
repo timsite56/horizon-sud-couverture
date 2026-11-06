@@ -318,3 +318,6 @@ footer { background: var(--footer-bg); padding: 3.5rem 11% 2rem; }
 @media (max-width: 600px) { .nav-logo img.nav-logo-img { height: 38px; } }
 
 @media (max-width: 430px) { .nav-logo img.nav-logo-img { display: block; height: 34px; } }
+
+.nav-logo-img { height: 54px; width: auto; display: block; }
+@media (max-width: 600px) { .nav-logo-img { height: 44px; } }

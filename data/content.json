@@ -6,7 +6,7 @@
   "telephone_tel": "+33658155195",
   "annee": "2026",
   "design": {
-    "palette": "orange",
+    "palette": "horizon",
     "nav_style": "transparent",
     "stats_style": "classique"
   },
@@ -188,27 +188,51 @@
   "galerie": [
     {
       "image": "images/gallery1.jpg",
-      "legende": "Pose de tuiles neuves sur liteaux"
+      "legende": "Toiture en tuile canal remaniée puis revêtement de protection"
     },
     {
       "image": "images/gallery2.jpg",
-      "legende": "Toiture en tuile canal rénovée en cœur de village"
+      "legende": "Toiture nettoyée et revêtement de protection appliqué"
     },
     {
       "image": "images/gallery3.jpg",
-      "legende": "Couverture en tuile canal sur maison de ville"
+      "legende": "Faîtage déposé puis refait à neuf"
     },
     {
       "image": "images/gallery4.jpg",
-      "legende": "Faîtage refait à neuf"
+      "legende": "Souche de cheminée rénovée"
     },
     {
       "image": "images/gallery5.jpg",
-      "legende": "Toiture en tuile canal remaniée"
+      "legende": "Faîtage refait sur closoir ventilé"
     },
     {
       "image": "images/gallery6.jpg",
-      "legende": "Couverture neuve en tuile canal"
+      "legende": "Tuiles canal neuves en cœur de village"
+    },
+    {
+      "image": "images/gallery7.jpg",
+      "legende": "Pose de tuiles canal neuves sur liteaux"
+    },
+    {
+      "image": "images/gallery8.jpg",
+      "legende": "Solins refaits le long des murs en pierre"
+    },
+    {
+      "image": "images/gallery9.jpg",
+      "legende": "Faîtages scellés et épi de faîtage"
+    },
+    {
+      "image": "images/gallery10.jpg",
+      "legende": "Toiture en tuile canal terminée"
+    },
+    {
+      "image": "images/gallery11.jpg",
+      "legende": "Toiture refaite : faîtage et rives neufs"
+    },
+    {
+      "image": "images/gallery12.jpg",
+      "legende": "Revêtement de toiture : la tuile retrouve sa couleur"
     }
   ],
   "faq": [

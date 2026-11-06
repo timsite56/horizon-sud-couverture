@@ -32,7 +32,7 @@
   var PALETTES = {
     noir: '#0a0a0a', bleu: '#1e6ba3', vert: '#065f46',
     orange: '#9a3412', bordeaux: '#881337', ardoise: '#334155',
-    violet: '#5b21b6', brun: '#78350f', rouge: '#d60a1a'
+    violet: '#5b21b6', brun: '#78350f', rouge: '#d60a1a', horizon: '#dc5605'
   };
   function hexToRgb(h) {
     return [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
@@ -43,7 +43,13 @@
     var root = document.documentElement.style;
     root.setProperty('--primary', primary);
 
-    if (nom === 'rouge') {
+    if (nom === 'horizon') {
+      root.setProperty('--text', '#13212f');
+      root.setProperty('--muted', 'rgba(19,33,47,0.64)');
+      root.setProperty('--border', 'rgba(19,33,47,0.10)');
+      root.setProperty('--surface', 'rgba(220,86,5,0.06)');
+      root.setProperty('--footer-bg', '#0c1826');
+    } else if (nom === 'rouge') {
       /* rouge vif en accent, texte anthracite — jamais de texte rouge foncé */
       root.setProperty('--text', '#2b3038');
       root.setProperty('--muted', 'rgba(43,48,56,0.62)');
@@ -69,7 +75,9 @@
     /* Voile assombri du hero des pages : teinte de la primaire × 0.39 — c'est
        exactement le rapport qu'avait le brun d'origine avec l'orange figé.
        Sur palette noire, un gris neutre (le ×0.39 donnerait un voile trop clair). */
-    if (primary === '#0a0a0a') {
+    if (nom === 'horizon') {
+      root.setProperty('--hero-overlay', 'rgba(8,16,28,0.70)');
+    } else if (primary === '#0a0a0a') {
       root.setProperty('--hero-overlay', 'rgba(10,10,10,0.62)');
     } else {
       var o = hexToRgb(primary);
