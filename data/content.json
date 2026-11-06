@@ -13,14 +13,14 @@
   "hero": {
     "image": "images/hero-bg.jpg",
     "titre": "Votre couvreur à Carcassonne et dans le Carcassonnais",
-    "description": "Horizon Sud Couverture répare, rénove et entretient vos toitures en tuile canal à Carcassonne, Trèbes, Limoux et dans tout le Carcassonnais. Devis gratuit et sans engagement."
+    "description": "Horizon Sud Couverture répare, rénove et entretient toutes vos toitures, en tuile canal, romane ou mécanique, à Carcassonne, Trèbes, Limoux et dans tout le Carcassonnais. Devis gratuit et sans engagement."
   },
   "apropos": {
     "image": "images/apropos.jpg",
-    "texte": "Horizon Sud Couverture est une entreprise de couverture installée route de Montréal, à Carcassonne (11000). Remaniement et rénovation de toitures en tuile canal, faîtages, couverture neuve, zinguerie, démoussage, fenêtres de toit, façade et peinture : nous intervenons sur les maisons de village en pierre, les maisons de ville et les villas du Carcassonnais.\n\nCompétence, écoute et travail soigné, réparations rapides et conformes au devis : c'est ce que nos clients retiennent. Garantie décennale, responsabilité civile professionnelle, devis gratuit et détaillé : nous intervenons à Carcassonne, Trèbes, Limoux, Pennautier et dans tout le Carcassonnais.",
+    "texte": "Horizon Sud Couverture est une entreprise de couverture installée route de Montréal, à Carcassonne (11000). Remaniement et rénovation de toitures en tuile canal, romane ou mécanique, faîtages, couverture neuve, zinguerie, démoussage, fenêtres de toit, façade et peinture : nous intervenons sur les maisons de village en pierre, les maisons de ville et les villas du Carcassonnais.\n\nCompétence, écoute et travail soigné, réparations rapides et conformes au devis : c'est ce que nos clients retiennent. Garantie décennale, responsabilité civile professionnelle, devis gratuit et détaillé : nous intervenons à Carcassonne, Trèbes, Limoux, Pennautier et dans tout le Carcassonnais.",
     "badges": [
       "Couvreur de l'Aude",
-      "Spécialiste tuile canal",
+      "Tous types de tuiles",
       "Inspection par drone",
       "Garantie décennale",
       "Devis gratuit"
@@ -246,8 +246,8 @@
       "reponse": "Oui. Avant le devis, nous inspectons votre toiture par drone pour voir son état réel sans monter dessus. Pendant le chantier, vous recevez des photos et des vidéos des travaux avant, pendant et après, pour suivre l'avancement même à distance."
     },
     {
-      "question": "Travaillez-vous la tuile canal des maisons anciennes ?",
-      "reponse": "Oui. La tuile canal couvre la plupart des maisons de village et du centre de Carcassonne : nous la remanions, la reposons au mortier ou sur closoirs selon le support, en réutilisant les tuiles anciennes saines et en complétant avec des tuiles de récupération assorties."
+      "question": "Quels types de tuiles travaillez-vous ?",
+      "reponse": "Tous les types de tuiles du Carcassonnais. La tuile canal des maisons de village et du centre de Carcassonne, que nous remanions et reposons au mortier ou sur closoirs selon le support, en réutilisant les tuiles anciennes saines. Mais aussi la tuile romane et la tuile mécanique des maisons plus récentes et des villas : remplacement des tuiles cassées, faîtages, rives et couverture neuve."
     },
     {
       "question": "À quelle fréquence faut-il démousser un toit dans l'Aude ?",
